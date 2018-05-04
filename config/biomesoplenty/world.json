@@ -1,0 +1,9 @@
+{
+  "biomeSize": "medium",
+  "generateBopOre": false,
+  "generateBerryBushes": true,
+  "generateQuicksand": false,
+  "generateHotSprings": true,
+  "generateLiquidPoison": false,
+  "generatePoisonIvy": false,
+}
