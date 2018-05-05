@@ -1,2 +1,2 @@
 # CoopLife2
-Coop Life 2: Chickens in Space!
+GrimCo's Coop Life 2: Chickens in Space!
