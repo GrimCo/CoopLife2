@@ -6,9 +6,9 @@
 			"generator": {
 				"block": "dirt",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 12
 			},
-			"cluster-count": 10,
+			"cluster-count": 5,
 			"min-height": 0,
 			"max-height": 256,
 			"retrogen": false,
@@ -27,7 +27,7 @@
 			"generator": {
 				"block": "gravel",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 12
 			},
 			"cluster-count": 8,
 			"min-height": 0,
@@ -55,7 +55,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 10,
+			"cluster-count": 0,
 			"min-height": 0,
 			"max-height": 80,
 			"retrogen": false,
@@ -81,7 +81,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 10,
+			"cluster-count": 0,
 			"min-height": 0,
 			"max-height": 80,
 			"retrogen": false,
@@ -107,7 +107,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 33
 			},
-			"cluster-count": 10,
+			"cluster-count": 0,
 			"min-height": 0,
 			"max-height": 80,
 			"retrogen": false,
@@ -129,7 +129,7 @@
 				"cluster-size": 17
 			},
 			"cluster-count": 20,
-			"min-height": 0,
+			"min-height": 1,
 			"max-height": 128,
 			"retrogen": false,
 			"biome": "all",
@@ -147,11 +147,11 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 12
 			},
-			"cluster-count": 20,
-			"min-height": 0,
-			"max-height": 64,
+			"cluster-count": 22,
+			"min-height": 1,
+			"max-height": 75,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -170,8 +170,8 @@
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 2,
-			"min-height": 0,
+			"cluster-count": 4,
+			"min-height": 1,
 			"max-height": 32,
 			"retrogen": false,
 			"biome": "all",
@@ -191,9 +191,9 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 8,
-			"min-height": 0,
-			"max-height": 16,
+			"cluster-count": 10,
+			"min-height": 1,
+			"max-height": 32,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -212,9 +212,9 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 1,
-			"min-height": 0,
-			"max-height": 16,
+			"cluster-count": 3,
+			"min-height": 1,
+			"max-height": 32,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -231,10 +231,10 @@
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 7
+				"cluster-size": 9
 			},
 			"cluster-count": 1,
-			"center-height": 16,
+			"center-height": 32,
 			"spread": 16,
 			"retrogen": false,
 			"biome": "all",
@@ -259,7 +259,7 @@
 			},
 			"cluster-count": 20,
 			"min-height": 32,
-			"max-height": 80,
+			"max-height": 75,
 			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
@@ -293,30 +293,16 @@
 					"name": "emerald_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 1
+				"cluster-size": 3
 			},
 			"cluster-count": {
 				"min": 3,
 				"max": 6
 			},
-			"min-height": 4,
-			"max-height": 28,
+			"min-height": 1,
+			"max-height": 32,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"extreme_hills",
-							"smaller_extreme_hills",
-							"extreme_hills_with_trees",
-							"mutated_extreme_hills",
-							"mutated_extreme_hills_with_trees"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -336,27 +322,13 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 0
 			},
-			"cluster-count": 7,
+			"cluster-count": 0,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"extreme_hills",
-							"smaller_extreme_hills",
-							"extreme_hills_with_trees",
-							"mutated_extreme_hills",
-							"mutated_extreme_hills_with_trees"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -371,9 +343,9 @@
 			"generator": {
 				"block": "quartz_ore",
 				"material": "minecraft:netherrack",
-				"cluster-size": 14
+				"cluster-size": 18
 			},
-			"cluster-count": 16,
+			"cluster-count": 22,
 			"min-height": 10,
 			"max-height": 118,
 			"retrogen": false,
