@@ -105,8 +105,8 @@ recipes.addShapeless("TETankClean", teTank,
 	 }, null);
 	 
 //Purple Glazed Plastic
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:plasticpurple>,<techguns:itemshared:55>,<minecraft:dye:5>, 4500);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:plasticpurple>,<mekanism:polyethene:2>,<minecraft:dye:5>, 4500);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:plasticpurple>,<hatchery:plastic>,<minecraft:dye:5>, 4500);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:plasticpurple>,<techreborn:part:32>,<minecraft:dye:5>, 4500);
 
 //Crystalline Lattice Recipes
 mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:prismarine>,<contenttweaker:crystallattice>,<liquid:water> * 250, 4500);
