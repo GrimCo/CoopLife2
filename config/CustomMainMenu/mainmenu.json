@@ -1,37 +1,26 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
-            "alignment" : "top_center"
+    "images": {
+        "logo": {
+            "posX":8,
+            "posY":8,
+            "height":64,
+            "width":64,
+            "alignment":"top_left",
+            "image": "mainmenu:logo.png"
         }
     },
-    
     "buttons":
     {
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posX" : -201,
+            "posY" : -75,
+            "width" : 201,
             "height" : 20,
-            "action" : 
+			"texture" : "mainmenu:button.png",
+			"alignment" : "right_center",
+			"action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
@@ -41,10 +30,12 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : -201,
+            "posY" : -50,
+            "width" : 201,
             "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "right_center",
             "action" : 
             {
                 "type" : "openGui",
@@ -55,69 +46,63 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
+            "posX" : -201,
+            "posY" : -25,
+            "width" : 201,
             "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "right_center",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "mods"
             }
         },
-            
+
         "options":
         {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+			"text" : "menu.options",
+            "posX" : -201,
+            "posY" : 0,
+            "width" : 201,
             "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "right_center",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
-        
-        "quit":
+		
+		"reportissue":
+        {
+			"text" : "Report Issue",
+            "posX" : -201,
+            "posY" : 25,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/GrimCo/CoopLife2/issues"
+            }
+        },
+		
+		"quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : -201,
+            "posY" : 50,
+            "width" : 201,
             "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "right_center",
             "action" : 
             {
                 "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
             }
         }
     },
@@ -127,46 +112,32 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
+            "hoverText": "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : 4,
+            "posY" : -12,
             "color" : -1,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
+            "alignment" : "bottom_left",
+            "action": {
+                "type": "openGui",
+                "gui": "credits"
             }
         },
-        
-        "fml":
+		
+		"modcounts":
         {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
+            "text" : "#modsloaded# Mods loaded, #modsactive# Mods active.",
+            "posX" : -174,
+            "posY" : -12,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "bottom_right"
         }
     },
     
     "other":
     {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+        "background": {
+            "image": "mainmenu:mainmenu.png",
+            "mode": "fill"
         }
     }
 }
