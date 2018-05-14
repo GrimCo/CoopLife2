@@ -1,11 +1,60 @@
 <Asteroids>
-	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
-		<ore itemStack="minecraft:iron_ore" chance="15" />
-		<ore itemStack="minecraft:gold_ore" chance="10" />
-		<ore itemStack="minecraft:redstone_ore" chance="10" />
+	<asteroid name="Iron Rich Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="1" richnessVariability="0.5" >
+		<ore itemStack="minecraft:iron_ore" chance="40" />
 	</asteroid>
-	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
-		<ore itemStack="minecraft:iron_ore" chance="25" />
-		<ore itemStack="libvulpes:ore0 10" chance="5" />
+	<asteroid name="Copper Rich Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="1" richnessVariability="0.5" >
+		<ore itemStack="thermalfoundation:ore 0" chance="40" />
+	</asteroid>
+	<asteroid name="Tin Rich Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="1" richnessVariability="0.5" >
+		<ore itemStack="thermalfoundation:ore 1" chance="40" />
+	</asteroid>
+	<asteroid name="Silver Rich Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="0.9" richness="1" richnessVariability="0.5" >
+		<ore itemStack="thermalfoundation:ore 2" chance="40" />
+	</asteroid>
+	<asteroid name="Lead Rich Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="0.9" richness="1" richnessVariability="0.5" >
+		<ore itemStack="thermalfoundation:ore 3" chance="40" />
+	</asteroid>
+	<asteroid name="Aluminum Rich Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="1" richnessVariability="0.5" >
+		<ore itemStack="thermalfoundation:ore 4" chance="40" />
+	</asteroid>
+	<asteroid name="Nickel Rich Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="1" richnessVariability="0.5" >
+		<ore itemStack="thermalfoundation:ore 5" chance="40" />
+	</asteroid>	
+	<asteroid name="Gold Rich Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="1" richnessVariability="0.5" >
+		<ore itemStack="minecraft:gold_ore" chance="40" />
+	</asteroid>
+	<asteroid name="Diamond Rich Asteroid" distance="30" mass="100" massVariability="0.5" minLevel="0" probability="0.85" richness="1" richnessVariability="0.5" >
+		<ore itemStack="minecraft:diamond_ore" chance="40" />
+	</asteroid>
+	<asteroid name="Lapis Lazuli Rich Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="1" richnessVariability="0.5" >
+		<ore itemStack="minecraft:lapis_ore" chance= "40" />
+	</asteroid>
+	<asteroid name="Redstone Rich Asteroid" distance="20" mass="100" massVariability="0.5" minLevel="0" probability="1" richness="1" richnessVariability="0.5" >
+		<ore itemStack="minecraft:redstone_ore" chance= "40" />
+		<ore itemStack="thermalfoundation:ore_fluid 2" chance="5" />
+	</asteroid>
+	<asteroid name="Rutile Rich Asteroid" distance="30" mass="100" massVariability="0.5" minLevel="0" probability="0.85" richness="1" richnessVariability="0.5" >
+		<ore itemStack="libvulpes:ore0 8" chance="40"/>
+	</asteroid>
+	<asteroid name="Infernal Asteroid" distance="50" mass="60" massVariability="0.5" minLevel="0" probability="0.8" richness="1" richnessVariability="0.5" >
+		<ore itemStack="minecraft:netherrack" chance= "20" />
+		<ore itemStack="minecraft:quartz_ore" chance= "15" />
+		<ore itemStack="thermalfoundation:ore_fluid 3" chance="5" />		
+		<ore itemStack="rftools:dimensional_shard_ore 1" chance= "10" />		
+	</asteroid>
+	<asteroid name="Alien Asteroid" distance="50" mass="50" massVariability="0.5" minLevel="0" probability="0.8" richness="1" richnessVariability="0.5" >
+		<ore itemStack="minecraft:end_stone" chance="20" />
+		<ore itemStack="techreborn:ore 8" chance="15" />
+		<ore itemStack="thermalfoundation:ore_fluid 4" chance="5" />		
+		<ore itemStack="rftools:dimensional_shard_ore 2" chance="10" />
+	</asteroid>	
+	<asteroid name="Platinum Rich Asteroid" distance="60" mass="100" massVariability="0.5" minLevel="0" probability="0.75" richness="1" richnessVariability="0.5" >
+		<ore itemStack="thermalfoundation:ore 6" chance="40" />
+	</asteroid>
+	<asteroid name="Iridimite Asteroid" distance="60" mass="60" massVariability="0.5" minLevel="0" probability="0.75" richness="1" richnessVariability="0.3" >		
+		<ore itemStack="thermalfoundation:ore 7" chance="40" />
+	</asteroid>
+	<asteroid name="Dilithium Rich Asteroid" distance="50" mass="70" massVariability="0.5" minLevel="0" probability="0.7" richness="1" richnessVariability="0.5" >
+		<ore itemStack="libvulpes:ore0 0" chance="40" />
 	</asteroid>
 </Asteroids>
