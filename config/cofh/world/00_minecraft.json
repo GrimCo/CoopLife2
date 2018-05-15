@@ -6,7 +6,7 @@
 			"generator": {
 				"block": "dirt",
 				"material": "minecraft:stone",
-				"cluster-size": 12
+				"cluster-size": 6
 			},
 			"cluster-count": 5,
 			"min-height": 0,
@@ -27,7 +27,7 @@
 			"generator": {
 				"block": "gravel",
 				"material": "minecraft:stone",
-				"cluster-size": 12
+				"cluster-size": 8
 			},
 			"cluster-count": 8,
 			"min-height": 0,
@@ -126,12 +126,12 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 17
+				"cluster-size": 16
 			},
-			"cluster-count": 20,
+			"cluster-count": 18,
 			"min-height": 1,
-			"max-height": 128,
-			"retrogen": false,
+			"max-height": 75,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -151,8 +151,8 @@
 			},
 			"cluster-count": 22,
 			"min-height": 1,
-			"max-height": 75,
-			"retrogen": false,
+			"max-height": 60,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -170,10 +170,10 @@
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 4,
+			"cluster-count": 6,
 			"min-height": 1,
 			"max-height": 32,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -194,7 +194,7 @@
 			"cluster-count": 10,
 			"min-height": 1,
 			"max-height": 32,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -210,12 +210,12 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 4
 			},
-			"cluster-count": 3,
+			"cluster-count": 8,
 			"min-height": 1,
 			"max-height": 32,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -231,12 +231,12 @@
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 6
 			},
-			"cluster-count": 1,
-			"center-height": 32,
+			"cluster-count": 3,
+			"center-height": 16,
 			"spread": 16,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -258,9 +258,9 @@
 				"cluster-size": 9
 			},
 			"cluster-count": 20,
-			"min-height": 32,
-			"max-height": 75,
-			"retrogen": false,
+			"min-height": 1,
+			"max-height": 60,
+			"retrogen": true,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -301,7 +301,7 @@
 			},
 			"min-height": 1,
 			"max-height": 32,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -327,7 +327,7 @@
 			"cluster-count": 0,
 			"min-height": 0,
 			"max-height": 64,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -346,9 +346,9 @@
 				"cluster-size": 18
 			},
 			"cluster-count": 22,
-			"min-height": 10,
+			"min-height": 1,
 			"max-height": 118,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
