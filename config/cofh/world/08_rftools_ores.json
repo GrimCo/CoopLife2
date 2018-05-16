@@ -2,7 +2,6 @@
 	"dependencies": "rftools",
 	"populate": {
 		"dimensional ore": {
-		"lead": {
 			"distribution": "uniform",
 			"generator": {
 				"block": [

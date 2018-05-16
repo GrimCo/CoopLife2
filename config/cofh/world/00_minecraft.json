@@ -126,11 +126,11 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 16
+				"cluster-size": 12
 			},
-			"cluster-count": 18,
+			"cluster-count": 14,
 			"min-height": 1,
-			"max-height": 75,
+			"max-height": 128,
 			"retrogen": true,
 			"biome": "all",
 			"dimension": {
@@ -311,33 +311,6 @@
 				]
 			}
 		},
-
-		"silverfish": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "monster_egg",
-					"properties": {
-						"variant": "stone"
-					}
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 0
-			},
-			"cluster-count": 0,
-			"min-height": 0,
-			"max-height": 64,
-			"retrogen": true,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
 		"quartz": {
 			"distribution": "uniform",
 			"generator": {
@@ -346,7 +319,7 @@
 				"cluster-size": 18
 			},
 			"cluster-count": 22,
-			"min-height": 1,
+			"min-height": 10,
 			"max-height": 118,
 			"retrogen": true,
 			"biome": {
