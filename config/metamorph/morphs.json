@@ -1,1 +1,55 @@
-{}
+{
+    "minecraft:chicken": {
+        "abilities": ["glide","jumping"],        
+        "health": 20,
+        "hostile": false
+    },
+    "chickens:chickenschicken": {
+        "abilities": ["glide","jumping"],        
+        "health": 20,
+        "hostile": false
+    },
+    "hatchery:roosterentity": {
+        "abilities": ["glide","jumping"],
+        "health": 20,
+        "hostile": false
+    },
+   "forestry:butterflyge": {
+        "abilities": ["fly"],        
+        "health": 15,
+        "hostile": false
+    },
+    "minecraft:ocelot": {
+        "abilities": ["prevent_fall","jumping"],        
+        "health": 20,
+        "hostile": false
+    },
+    "thermalfoundation:basalz": {
+        "abilities": ["fly"],
+        "attack": "knockback",
+        "health": 30,
+        "hostile": true,
+        "hands": true
+    },
+    "thermalfoundation:blizz": {
+        "abilities": ["fly"],
+        "action": "snowball",
+        "health": 30,
+        "hostile": true,
+        "hands": true
+    },
+    "thermalfoundation:blitz": {
+        "abilities": ["fly"],
+        "action": "spit",
+        "health": 30,
+        "hostile": true,
+        "hands": true
+    },
+    "biomesoplenty:wasp": {
+    	"abilities": ["fly"],
+    	"attack": "poison",
+    	"health": 15,
+    	"hotile": true,
+    	"hands": true
+    }
+}
