@@ -1,16 +1,16 @@
 {
     "minecraft:chicken": {
-        "abilities": ["glide","jumping"],        
+        "abilities": ["glide"],        
         "health": 20,
         "hostile": false
     },
     "chickens:chickenschicken": {
-        "abilities": ["glide","jumping"],        
+        "abilities": ["glide"],        
         "health": 20,
         "hostile": false
     },
     "hatchery:roosterentity": {
-        "abilities": ["glide","jumping"],
+        "abilities": ["glide"],
         "health": 20,
         "hostile": false
     },
@@ -20,7 +20,7 @@
         "hostile": false
     },
     "minecraft:ocelot": {
-        "abilities": ["prevent_fall","jumping"],        
+        "abilities": ["prevent_fall"],        
         "health": 20,
         "hostile": false
     },
