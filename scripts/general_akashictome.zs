@@ -3,8 +3,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-#packmode normal simplified
-
 
 print(" =================== Akashic Tome =================== ");
 print(" ==================================================== ");
