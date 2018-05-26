@@ -1,13 +1,13 @@
 <galaxy>
     <star name="Aves" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
-        <planet name="Gallus" customIcon="EarthLike" DIMID="0" dimMapping="">           
+        <planet name="Gallus" customIcon="EarthLike" DIMID="0" dimMapping="">
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
             <orbitalDistance>100</orbitalDistance>
             <orbitalTheta>180</orbitalTheta>
             <oribitalPhi>0</oribitalPhi>
             <rotationalPeriod>24000</rotationalPeriod>            
-            <planet name="Sonneratii" customIcon="moon" DIMID="20">
+            <planet name="Moon" customIcon="moon" DIMID="20">
                 <fogColor>0,0,0</fogColor>
                 <skyColor>0,0,0</skyColor>
                 <atmosphereDensity>8</atmosphereDensity>
@@ -33,12 +33,57 @@
             <oceanBlock>contenttweaker:shifting_sand</oceanBlock>
             <seaLevel>74</seaLevel>
         </planet>
-        <planet name = "Australorp" customIcon="GasGiantRed">
+        <planet name ="Australorp" customIcon="GasGiantRed">
             <isKnown>true</isKnown>
             <gasGiant>true</gasGiant>
-            <gas></gas>
+            <gas>hydrogen</gas>
+            <gas>pyrotheum</gas>
             <orbitalDistance>200</orbitalDistance>
             <orbitalTheta>143</orbitalTheta>
+        </planet>
+    </star>
+    <star name="Murghi" temp="30" x="-10" y="20" numPlanets="0" numGasGiants="0">
+        <planet name="Murghi α" customIcon="GasGiantBlue">
+            <isKnown>true</isKnown>
+            <gasGiant>true</gasGiant>
+            <orbitalDistance>150</orbitalDistance>
+            <orbitalTheta>20</orbitalTheta>            
+        </planet>
+        <planet name="Murghi β" customIcon="GasGiantRed">
+            <isKnown>true</isKnown>
+            <gasGiant>true</gasGiant>
+            <orbitalDistance>225</orbitalDistance>
+            <orbitalTheta>105</orbitalTheta>
+            <planet name="Murghi β 1" customIcon="IceWorld" DIMID="22">
+                <isKnown>true</isKnown>
+                <fogColor>0,0,0</fogColor>
+                <skyColor>0,0,0</skyColor>
+                <atmosphereDensity>20</atmosphereDensity>
+                <gravitationalMultiplier>40</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>291</orbitalTheta>
+                <oribitalPhi>30</oribitalPhi>
+                <rotationalPeriod>48000</rotationalPeriod>
+                <biomeIds>119,24,98</biomeIds>
+                <oceanBlock>minecraft:water</oceanBlock>
+                <seaLevel>64</seaLevel>
+            </planet>    
+        </planet>
+    </star>
+    <star name="Jabouillei" temp="180" x="15" y="-10" numPlanets="0" numGasGiants="0">
+        <planet name="Jabouillei α" customIcon="MarsLike" DIMID="23">
+            <isKnown>true</isKnown>
+            <fogColor>0.7,0.2,0.3</fogColor>
+            <skyColor>0.8,0.5,0.4</skyColor>
+            <atmosphereDensity>160</atmosphereDensity>
+            <gravitationalMultiplier>120</gravitationalMultiplier>
+            <orbitalDistance>40</orbitalDistance>
+            <orbitalTheta>97</orbitalTheta>
+            <oribitalPhi>23</oribitalPhi>
+            <rotationalPeriod>96000</rotationalPeriod>
+            <biomeIds>113</biomeIds>
+            <oceanBlock>minecraft:lava</oceanBlock>
+            <seaLevel>74</seaLevel>
         </planet>
     </star>
 </galaxy>
