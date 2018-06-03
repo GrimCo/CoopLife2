@@ -793,5 +793,66 @@
       "overlay": "C"
     }
   ],
-  "custom": []
+  "custom": [
+    {
+      "stack": "stickDesh",
+      "overlay": "Desh"
+    },
+    {
+      "stack": "ingotDesh",
+      "overlay": "Desh"
+    },
+    {
+      "stack": "plateDesh",
+      "overlay": "Desh"
+    },
+    {
+      "stack": "blockDesh",
+      "overlay": "Desh"
+    },
+    {
+      "stack": "plateMeteoricIron",
+      "overlay": "FeX"
+    },
+    {
+      "stack": "ingotMeteoricIron",
+      "overlay": "FeX"
+    },
+    {
+      "stack": "blockMeteoricIron",
+      "overlay": "FeX"
+    },
+    {
+      "stack": "stickTungsten",
+      "overlay": "W"
+    },
+    {
+      "stack": "ingotTungsten",
+      "overlay": "W"
+    },
+    {
+      "stack": "plateTungsten",
+      "overlay": "W"
+    },
+    {
+      "stack": "blockTungsten",
+      "overlay": "W"
+    },
+        {
+      "stack": "stickTungstensteel",
+      "overlay": "WStl"
+    },
+    {
+      "stack": "ingotTungstensteel",
+      "overlay": "WStl"
+    },
+    {
+      "stack": "plateTungstensteel",
+      "overlay": "WStl"
+    },
+    {
+      "stack": "blockTungstensteel",
+      "overlay": "WStl"
+    },
+  ]
 }
