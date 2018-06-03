@@ -64,7 +64,7 @@
                 <orbitalTheta>291</orbitalTheta>
                 <oribitalPhi>30</oribitalPhi>
                 <rotationalPeriod>48000</rotationalPeriod>
-                <biomeIds>119,24,98</biomeIds>
+                <biomeIds>24,98</biomeIds>
                 <oceanBlock>minecraft:water</oceanBlock>
                 <seaLevel>64</seaLevel>
             </planet>    
