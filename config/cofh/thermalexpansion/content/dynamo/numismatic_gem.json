@@ -1,0 +1,11 @@
+{
+	"dynamo_numismatic": [
+		{
+			"type": "gem",
+			"input": {
+				"ore": "gemLunarSapphire"
+			},
+			"energy": 2400000
+		}
+	]
+}
