@@ -1,4 +1,232 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "biomesoplenty:log_0|4",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_3|5",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_2|4",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_1|7",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_1|6",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_1|5",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_1|4",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_0|7",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_3|4",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_0|6",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_0|5",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_2|6",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_2|7",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_3|6",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_3|7",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:log_2|5",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|160",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|164",
+      "emc": 576
+    },
+    {
+      "item": "thermalfoundation:material|167",
+      "emc": 1601
+    },
+    {
+      "item": "thermalfoundation:material|320",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:material|321",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|323",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|322",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|324",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:material|325",
+      "emc": 1024
+    },
+    {
+      "item": "thermalfoundation:material|326",
+      "emc": 4096
+    },
+    {
+      "item": "thermalfoundation:material|352",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|353",
+      "emc": 1280
+    },
+    {
+      "item": "thermalfoundation:material|354",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|355",
+      "emc": 160
+    },
+    {
+      "item": "thermalfoundation:material|356",
+      "emc": 576
+    },
+    {
+      "item": "thermalfoundation:material|357",
+      "emc": 384
+    },
+    {
+      "item": "thermalfoundation:material|358",
+      "emc": 704
+    },
+    {
+      "item": "thermalfoundation:material|359",
+      "emc": 1601
+    },
+    {
+      "item": "thermalfoundation:material|770",
+      "emc": 16
+    },
+    {
+      "item": "thermalfoundation:material|832",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|1024",
+      "emc": 768
+    },
+    {
+      "item": "thermalfoundation:material|1025",
+      "emc": 768
+    },
+    {
+      "item": "thermalfoundation:material|1026",
+      "emc": 768
+    },
+    {
+      "item": "thermalfoundation:material|1027",
+      "emc": 768
+    },
+    {
+      "item": "thermalfoundation:material|33",
+      "emc": 2048
+    },
+    {
+      "item": "thermalfoundation:material|32",
+      "emc": 256
+    },
+    {
+      "item": "actuallyadditions:item_crystal|2",
+      "emc": 8192
+    },
+    {
+      "item": "actuallyadditions:item_crystal|3",
+      "emc": 128
+    },
+    {
+      "item": "actuallyadditions:item_crystal|4",
+      "emc": 16384
+    },
+    {
+      "item": "actuallyadditions:item_crystal|5",
+      "emc": 256
+    },
+    {
+      "item": "actuallyadditions:item_crystal|0",
+      "emc": 64
+    },
+    {
+      "item": "actuallyadditions:item_crystal|1",
+      "emc": 864
+    },
+    {
+      "item": "actuallyadditions:item_misc|5",
+      "emc": 256
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|2",
+      "emc": 8304
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|3",
+      "emc": 181
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|4",
+      "emc": 16477
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|5",
+      "emc": 291
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|0",
+      "emc": 161
+    },
+    {
+      "item": "actuallyadditions:block_testifi_bucks_white_wall|0",
+      "emc": 1024
+    },
+    {
+      "item": "actuallyadditions:block_testifi_bucks_green_wall|0",
+      "emc": 1024
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|1",
+      "emc": 2068
+    }
+  ]
 }
