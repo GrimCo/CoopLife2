@@ -1,0 +1,330 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  CTMCorePlugin (CTM-MC1.12-0.2.3.12.jar)
+  ComfortsCoreLoadingPlugin (comforts-1.12.2-1.1.1.1.jar)
+  ShetiPhian-ASM (shetiphiancore-1.12.0-3.5.6.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.64-dev.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  ColorblindHelperPlugin (GrimCoColorblindHelper-2.0.0.jar)
+Contact their authors BEFORE contacting forge
+
+// I let you down. Sorry :(
+
+Time: 6/2/18 10:46 AM
+Description: Updating screen events
+
+java.lang.NullPointerException: Updating screen events
+	at me.ichun.mods.cci.client.gui.GuiEditConfig.actionEdit(GuiEditConfig.java:512)
+	at me.ichun.mods.cci.client.gui.GuiEditConfig.func_146284_a(GuiEditConfig.java:280)
+	at net.minecraft.client.gui.GuiScreen.func_73864_a(GuiScreen.java:443)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:533)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1757)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1096)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:397)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at me.ichun.mods.cci.client.gui.GuiEditConfig.actionEdit(GuiEditConfig.java:512)
+	at me.ichun.mods.cci.client.gui.GuiEditConfig.func_146284_a(GuiEditConfig.java:280)
+	at net.minecraft.client.gui.GuiScreen.func_73864_a(GuiScreen.java:443)
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:533)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501)
+
+-- Affected screen --
+Details:
+	Screen name: me.ichun.mods.cci.client.gui.GuiEditConfig
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Vaygrim'/55013, l='MpServer', x=214.66, y=66.00, z=418.56]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 06 - BIOMESOP, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (134,64,149), Chunk: (at 6,4,5 in 8,9; contains blocks 128,0,144 to 143,255,159), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 27232195 game time, 1475964 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 125 total; [EntityZombie['Zombie'/57344, l='MpServer', x=245.50, y=33.00, z=393.50], EntityZombie['Zombie'/57856, l='MpServer', x=285.50, y=39.00, z=452.50], EntitySkeleton['Skeleton'/55297, l='MpServer', x=238.73, y=28.00, z=455.50], EntityBat['Bat'/56065, l='MpServer', x=137.66, y=19.08, z=469.44], EntitySkeleton['Skeleton'/55298, l='MpServer', x=244.50, y=27.00, z=456.50], EntitySkeleton['Skeleton'/56578, l='MpServer', x=277.50, y=35.00, z=406.50], EntitySquid['Squid'/57602, l='MpServer', x=188.02, y=49.00, z=415.92], EntityZombie['Zombie'/55300, l='MpServer', x=244.50, y=27.00, z=460.50], EntityZombie['Zombie'/55302, l='MpServer', x=261.50, y=27.00, z=377.50], EntityZombie['Zombie'/55304, l='MpServer', x=257.44, y=27.00, z=379.18], EntitySquid['Squid'/57613, l='MpServer', x=224.52, y=47.29, z=446.21], EntityZombie['Zombie'/55310, l='MpServer', x=247.51, y=24.00, z=362.74], EntitySquid['Squid'/57614, l='MpServer', x=221.43, y=48.07, z=447.02], EntityZombie['Zombie'/55314, l='MpServer', x=270.50, y=33.00, z=357.50], EntitySquid['Squid'/55321, l='MpServer', x=260.44, y=53.45, z=455.34], EntitySkeleton['Skeleton'/56346, l='MpServer', x=277.50, y=13.00, z=477.50], EntityWitch['Witch'/56091, l='MpServer', x=254.50, y=29.00, z=380.50], EntitySquid['Squid'/57628, l='MpServer', x=276.09, y=57.74, z=431.17], EntitySquid['Squid'/57629, l='MpServer', x=273.85, y=56.07, z=430.97], EntitySquid['Squid'/57630, l='MpServer', x=273.11, y=61.02, z=433.69], EntityCreeper['Creeper'/55327, l='MpServer', x=285.50, y=39.00, z=450.50], EntitySquid['Squid'/57632, l='MpServer', x=266.84, y=55.63, z=427.43], EntityCreeper['Creeper'/56618, l='MpServer', x=283.50, y=33.00, z=443.50], EntityZombie['Zombie'/57907, l='MpServer', x=137.50, y=20.00, z=466.50], EntityZombie['Zombie'/57909, l='MpServer', x=135.50, y=20.00, z=463.50], EntityCreeper['Creeper'/55355, l='MpServer', x=283.79, y=22.00, z=401.42], EntitySquid['Squid'/57660, l='MpServer', x=268.85, y=55.72, z=406.98], EntityZombie['Zombie'/55357, l='MpServer', x=288.50, y=15.00, z=393.50], EntitySquid['Squid'/57661, l='MpServer', x=268.13, y=55.39, z=408.70], EntitySquid['Squid'/57662, l='MpServer', x=261.78, y=56.75, z=413.69], EntityZombie['Zombie'/57918, l='MpServer', x=139.50, y=24.00, z=496.50], EntitySquid['Squid'/57663, l='MpServer', x=265.90, y=58.22, z=409.11], EntityBat['Bat'/56392, l='MpServer', x=240.41, y=32.81, z=342.52], EntitySquid['Squid'/57674, l='MpServer', x=272.86, y=50.44, z=443.35], EntitySquid['Squid'/57675, l='MpServer', x=265.60, y=53.86, z=440.00], EntitySquid['Squid'/57676, l='MpServer', x=273.53, y=49.18, z=437.69], EntitySquid['Squid'/57677, l='MpServer', x=266.00, y=55.09, z=434.60], EntityWitch['Witch'/56144, l='MpServer', x=270.50, y=40.00, z=364.50], EntityZombie['Zombie'/56400, l='MpServer', x=142.50, y=15.00, z=382.50], EntityWitch['Witch'/56145, l='MpServer', x=272.50, y=40.00, z=363.50], EntitySkeleton['Skeleton'/56146, l='MpServer', x=271.50, y=40.00, z=364.77], EntityZombie['Zombie'/57430, l='MpServer', x=181.50, y=17.00, z=439.50], EntitySquid['Squid'/57686, l='MpServer', x=270.85, y=50.42, z=428.43], EntitySquid['Squid'/57687, l='MpServer', x=271.57, y=50.37, z=434.90], EntitySquid['Squid'/57688, l='MpServer', x=268.17, y=51.12, z=438.31], EntitySquid['Squid'/57689, l='MpServer', x=271.07, y=49.69, z=442.83], EntitySquid['Squid'/57690, l='MpServer', x=160.48, y=48.38, z=462.86], EntitySquid['Squid'/57691, l='MpServer', x=158.21, y=51.23, z=467.70], EntitySkeleton['Skeleton'/56412, l='MpServer', x=202.50, y=11.00, z=354.50], EntitySquid['Squid'/57692, l='MpServer', x=156.95, y=48.07, z=464.42], EntitySkeleton['Skeleton'/56413, l='MpServer', x=199.50, y=11.00, z=351.50], EntitySquid['Squid'/57693, l='MpServer', x=167.71, y=47.10, z=478.54], EntityBat['Bat'/57183, l='MpServer', x=292.75, y=14.82, z=407.65], EntityZombie['Zombie'/56418, l='MpServer', x=144.48, y=31.00, z=368.80], EntityZombie['Zombie'/57698, l='MpServer', x=293.50, y=29.00, z=345.50], EntityCreeper['Creeper'/57958, l='MpServer', x=240.50, y=33.00, z=392.50], EntityBat['Bat'/57448, l='MpServer', x=140.47, y=29.81, z=381.43], EntityZombie['Zombie'/56438, l='MpServer', x=135.50, y=22.00, z=459.50], EntityBat['Bat'/56700, l='MpServer', x=207.68, y=28.46, z=426.20], EntityBat['Bat'/56701, l='MpServer', x=251.01, y=23.10, z=399.49], EntityBat['Bat'/56702, l='MpServer', x=251.38, y=17.69, z=355.25], EntityBat['Bat'/57474, l='MpServer', x=244.41, y=40.10, z=366.13], EntitySkeleton['Skeleton'/57731, l='MpServer', x=189.25, y=13.00, z=432.82], EntityZombie['Zombie'/57732, l='MpServer', x=274.50, y=33.00, z=406.50], EntityZombie['Zombie'/56455, l='MpServer', x=287.48, y=41.00, z=362.20], EntityBoat['Boat'/55176, l='MpServer', x=136.80, y=62.52, z=407.75], EntityZombie['Zombie'/56456, l='MpServer', x=278.50, y=35.00, z=349.50], EntitySkeleton['Skeleton'/57743, l='MpServer', x=257.50, y=27.00, z=377.50], EntitySquid['Squid'/57490, l='MpServer', x=229.56, y=61.09, z=365.50], EntitySquid['Squid'/57491, l='MpServer', x=230.84, y=60.52, z=365.85], EntitySquid['Squid'/57492, l='MpServer', x=223.62, y=59.67, z=368.91], EntitySquid['Squid'/57493, l='MpServer', x=229.82, y=62.27, z=364.64], EntityCreeper['Creeper'/56728, l='MpServer', x=257.50, y=31.00, z=396.81], EntitySquid['Squid'/57500, l='MpServer', x=176.47, y=52.59, z=472.14], EntitySquid['Squid'/57501, l='MpServer', x=178.80, y=53.14, z=470.90], EntitySquid['Squid'/57503, l='MpServer', x=181.75, y=52.32, z=468.15], EntitySquid['Squid'/57504, l='MpServer', x=181.33, y=55.86, z=469.29], EntityZombie['Zombie'/56485, l='MpServer', x=244.50, y=27.00, z=394.50], EntityBat['Bat'/57767, l='MpServer', x=277.04, y=32.93, z=391.54], EntityCreeper['Creeper'/57004, l='MpServer', x=135.50, y=22.00, z=413.50], EntitySquid['Squid'/57524, l='MpServer', x=274.64, y=50.86, z=477.07], EntitySquid['Squid'/57527, l='MpServer', x=273.36, y=49.90, z=478.34], EntitySquid['Squid'/57528, l='MpServer', x=252.08, y=54.69, z=476.54], EntityZombie['Zombie'/55737, l='MpServer', x=249.50, y=27.00, z=344.50], EntitySquid['Squid'/57529, l='MpServer', x=254.09, y=54.15, z=479.50], EntitySquid['Squid'/57530, l='MpServer', x=250.33, y=55.10, z=481.05], EntityPlayerSP['Vaygrim'/55013, l='MpServer', x=214.66, y=66.00, z=418.56], EntitySquid['Squid'/57531, l='MpServer', x=260.65, y=52.50, z=477.55], EntityCreeper['Creeper'/56512, l='MpServer', x=247.50, y=38.00, z=360.50], EntitySquid['Squid'/57536, l='MpServer', x=222.89, y=59.29, z=362.15], EntitySquid['Squid'/57537, l='MpServer', x=214.58, y=58.67, z=366.32], EntitySquid['Squid'/57538, l='MpServer', x=222.22, y=61.33, z=360.83], EntitySquid['Squid'/57539, l='MpServer', x=211.91, y=62.46, z=363.17], EntityCreeper['Creeper'/56525, l='MpServer', x=274.50, y=29.00, z=366.50], EntitySkeleton['Skeleton'/56526, l='MpServer', x=272.58, y=28.00, z=374.91], EntitySpider['Spider'/56527, l='MpServer', x=270.71, y=29.00, z=370.32], EntitySkeleton['Skeleton'/56529, l='MpServer', x=185.50, y=14.00, z=433.50], EntityCreeper['Creeper'/56791, l='MpServer', x=262.50, y=39.00, z=356.50], EntitySkeleton['Skeleton'/57816, l='MpServer', x=287.29, y=35.00, z=430.78], EntityCreeper['Creeper'/56537, l='MpServer', x=256.50, y=21.00, z=470.50], EntityZombie['Zombie'/56799, l='MpServer', x=265.50, y=41.00, z=362.50], EntitySquid['Squid'/57570, l='MpServer', x=229.57, y=54.56, z=408.01], EntitySquid['Squid'/57571, l='MpServer', x=230.43, y=54.83, z=398.41], EntitySquid['Squid'/57572, l='MpServer', x=241.73, y=56.84, z=400.39], EntitySquid['Squid'/57577, l='MpServer', x=227.67, y=44.55, z=441.84], EntityCreeper['Creeper'/56810, l='MpServer', x=271.72, y=30.00, z=393.32], EntitySquid['Squid'/57578, l='MpServer', x=231.40, y=48.51, z=454.58], EntitySquid['Squid'/57579, l='MpServer', x=225.43, y=46.13, z=442.47], EntitySquid['Squid'/57580, l='MpServer', x=227.00, y=45.10, z=448.67], EntitySquid['Squid'/57584, l='MpServer', x=244.06, y=54.19, z=406.35], EntitySquid['Squid'/57585, l='MpServer', x=248.90, y=54.88, z=405.34], EntitySquid['Squid'/57586, l='MpServer', x=228.45, y=55.30, z=405.17], EntitySquid['Squid'/57587, l='MpServer', x=230.68, y=53.25, z=404.50], EntitySkeleton['Skeleton'/56822, l='MpServer', x=251.29, y=23.00, z=357.52], EntitySquid['Squid'/57592, l='MpServer', x=155.32, y=56.32, z=438.89], EntitySquid['Squid'/57593, l='MpServer', x=159.02, y=55.83, z=444.83], EntityCreeper['Creeper'/57849, l='MpServer', x=269.52, y=14.17, z=425.12], EntitySquid['Squid'/57594, l='MpServer', x=162.59, y=54.36, z=432.11], EntityCreeper['Creeper'/56571, l='MpServer', x=198.50, y=26.00, z=431.50], EntitySquid['Squid'/57595, l='MpServer', x=242.93, y=58.05, z=408.44], EntityCreeper['Creeper'/57851, l='MpServer', x=267.50, y=12.00, z=427.50], EntitySquid['Squid'/57596, l='MpServer', x=251.03, y=55.51, z=418.55], EntityCreeper['Creeper'/57852, l='MpServer', x=263.50, y=12.00, z=430.50], EntitySquid['Squid'/57597, l='MpServer', x=230.67, y=54.78, z=424.85], EntityBat['Bat'/55294, l='MpServer', x=262.25, y=31.10, z=400.25]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:420)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2738)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:418)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_161, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 898421216 bytes (856 MB) / 2999975936 bytes (2861 MB) up to 2999975936 bytes (2861 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms3000m -Xmx3000m
+	IntCache: cache: 0, tcache: 0, allocated: 4, tallocated: 105
+	FML: MCP 9.42 Powered by Forge 14.23.4.2705 119 mods loaded, 119 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                         | Version                      | Source                                          | Signature                                |
+	|:------ |:-------------------------- |:---------------------------- |:----------------------------------------------- |:---------------------------------------- |
+	| UCHIJA | minecraft                  | 1.12.2                       | minecraft.jar                                   | None                                     |
+	| UCHIJA | mcp                        | 9.42                         | minecraft.jar                                   | None                                     |
+	| UCHIJA | FML                        | 8.0.99.99                    | forge-1.12.2-14.23.4.2705-universal.jar         | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| UCHIJA | forge                      | 14.23.4.2705                 | forge-1.12.2-14.23.4.2705-universal.jar         | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| UCHIJA | actuallyadditions          | 1.12.2-r135                  | ActuallyAdditions-1.12.2-r135.jar               | None                                     |
+	| UCHIJA | redstoneflux               | 2.0.2                        | RedstoneFlux-1.12-2.0.2.3-universal.jar         | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | cofhcore                   | 4.5.1                        | CoFHCore-1.12.2-4.5.1.18-universal.jar          | None                                     |
+	| UCHIJA | libvulpes                  | 0.2.8.-31                    | LibVulpes-1.12.2-0.2.8-31-universal.jar         | None                                     |
+	| UCHIJA | advancedrocketry           | 1.4.0.-82                    | AdvancedRocketry-1.12.2-1.4.0-82-universal.jar  | None                                     |
+	| UCHIJA | akashictome                | 1.2-10                       | AkashicTome-1.2-10.jar                          | None                                     |
+	| UCHIJA | crafttweaker               | 4.1.8                        | CraftTweaker2-1.12-4.1.8.jar                    | None                                     |
+	| UCHIJA | mtlib                      | 3.0.5                        | MTLib-3.0.5.jar                                 | None                                     |
+	| UCHIJA | modtweaker                 | 4.0.12                       | modtweaker-4.0.12.jar                           | None                                     |
+	| UCHIJA | jei                        | 4.9.2.196                    | jei_1.12.2-4.9.2.196.jar                        | None                                     |
+	| UCHIJA | appleskin                  | 1.0.9                        | AppleSkin-mc1.12-1.0.9.jar                      | None                                     |
+	| UCHIJA | morphtool                  | 1.2-16                       | Morph-o-Tool-1.2-16.jar                         | None                                     |
+	| UCHIJA | autoreglib                 | 1.3-17                       | AutoRegLib-1.3-17.jar                           | None                                     |
+	| UCHIJA | base                       | 3.7.2                        | base-1.12.2-3.7.2.jar                           | None                                     |
+	| UCHIJA | baubles                    | 1.5.2                        | Baubles-1.12-1.5.2.jar                          | None                                     |
+	| UCHIJA | bdlib                      | 1.14.3.12                    | bdlib-1.14.3.12-mc1.12.2.jar                    | None                                     |
+	| UCHIJA | betterquesting             | 3.5.258                      | BetterQuesting-3.5.258.jar                      | None                                     |
+	| UCHIJA | reborncore                 | 3.8.5.290                    | RebornCore-1.12.2-3.8.5.290-universal.jar       | 8727a3141c8ec7f173b87aa78b9b9807867c4e6b |
+	| UCHIJA | techreborn                 | 2.15.10.677                  | TechReborn-1.12.2-2.15.10.677-universal.jar     | 8727a3141c8ec7f173b87aa78b9b9807867c4e6b |
+	| UCHIJA | forestry                   | 5.8.0.295                    | forestry_1.12.2-5.8.0.295.jar                   | None                                     |
+	| UCHIJA | binniecore                 | 2.5.0.165                    | binnie-mods-1.12.2-2.5.0.165.jar                | None                                     |
+	| UCHIJA | binniedesign               | 2.5.0.165                    | binnie-mods-1.12.2-2.5.0.165.jar                | None                                     |
+	| UCHIJA | genetics                   | 2.5.0.165                    | binnie-mods-1.12.2-2.5.0.165.jar                | None                                     |
+	| UCHIJA | botany                     | 2.5.0.165                    | binnie-mods-1.12.2-2.5.0.165.jar                | None                                     |
+	| UCHIJA | extrabees                  | 2.5.0.165                    | binnie-mods-1.12.2-2.5.0.165.jar                | None                                     |
+	| UCHIJA | extratrees                 | 2.5.0.165                    | binnie-mods-1.12.2-2.5.0.165.jar                | None                                     |
+	| UCHIJA | biomesoplenty              | 7.0.1.2391                   | BiomesOPlenty-1.12.2-7.0.1.2391-universal.jar   | None                                     |
+	| UCHIJA | bookshelf                  | 2.3.549                      | Bookshelf-1.12.2-2.3.549.jar                    | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | careerbees                 | 1.0                          | careerbees-0.4.0.jar                            | None                                     |
+	| UCHIJA | casinocraft                | v05                          | CasinoCraft_1.12.2_v05.jar                      | None                                     |
+	| UCHIJA | chameleon                  | 1.12-4.1.3                   | Chameleon-1.12-4.1.3.jar                        | None                                     |
+	| UCHIJA | chickens                   | 6.1.0                        | chickens-6.1.0.jar                              | None                                     |
+	| UCHIJA | chickenshades              | 1.2.0                        | chickenshades-1.12.2-1.2.0.jar                  | None                                     |
+	| UCHIJA | ctm                        | MC1.12-0.2.3.12              | CTM-MC1.12-0.2.3.12.jar                         | None                                     |
+	| UCHIJA | chisel                     | MC1.12.2-0.2.0.31            | Chisel-MC1.12.2-0.2.0.31.jar                    | None                                     |
+	| UCHIJA | chiselsandbits             | 14.17                        | chiselsandbits-14.17.jar                        | None                                     |
+	| UCHIJA | codechickenlib             | 3.1.8.341                    | CodeChickenLib-1.12.2-3.1.8.341-universal.jar   | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| UCHIJA | cofhworld                  | 1.2.0                        | CoFHWorld-1.12.2-1.2.0.5-universal.jar          | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | morpheus                   | 1.12-3.3.2                   | Morpheus-1.12-3.3.2.jar                         | None                                     |
+	| UCHIJA | comforts                   | 1.1.1.1                      | comforts-1.12.2-1.1.1.1.jar                     | 5d5b8aee896a4f5ea3f3114784742662a67ad32f |
+	| UCHIJA | contentcreatorintegration  | ${version}                   | ContentCreatorIntegration-1.12.2-0.0.8.jar      | None                                     |
+	| UCHIJA | contenttweaker             | 1.12.2-4.5.0                 | ContentTweaker-1.12.2-4.5.0.jar                 | None                                     |
+	| UCHIJA | controlling                | 3.0.6                        | Controlling-3.0.6.jar                           | None                                     |
+	| UCHIJA | cookingforblockheads       | 6.4.36                       | CookingForBlockheads_1.12.2-6.4.36.jar          | None                                     |
+	| UCHIJA | ctgui                      | 1.0.0                        | CraftTweaker2-1.12-4.1.8.jar                    | None                                     |
+	| UCHIJA | crafttweakerjei            | 2.0.2                        | CraftTweaker2-1.12-4.1.8.jar                    | None                                     |
+	| UCHIJA | modcurrency                | 1.12-1.3.2                   | Currency-1.12.0-1.3.2.jar                       | None                                     |
+	| UCHIJA | custombackgrounds          | 1.0                          | CustomBackgrounds-MC1.12-1.1.1.jar              | None                                     |
+	| UCHIJA | custommainmenu             | 2.0.8                        | CustomMainMenu-MC1.12.2-2.0.8.jar               | None                                     |
+	| UCHIJA | darkutils                  | 1.8.210                      | DarkUtils-1.12.2-1.8.210.jar                    | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| UCHIJA | deathcounter               | 1.0.0                        | DeathCounter-1.12.1-1.0.0.jar                   | None                                     |
+	| UCHIJA | defaultworldgenerator-port | 1.12-2.3                     | DefaultWorldGenerator-port-1.12-2.3.jar         | None                                     |
+	| UCHIJA | dirt2path                  | 1.7.1                        | dirt2path-1.7.1.jar                             | None                                     |
+	| UCHIJA | elevatorid                 | 1.3.6                        | ElevatorMod-1.12.2-1.3.6.jar                    | None                                     |
+	| UCHIJA | shetiphiancore             | 3.5.6                        | shetiphiancore-1.12.0-3.5.6.jar                 | None                                     |
+	| UCHIJA | endertanks                 | 1.6.6                        | endertanks-1.12.0-1.6.6.jar                     | None                                     |
+	| UCHIJA | engineersworkshop          | 1.0.7.35                     | EngineersWorkshopReborn-1.12.2-1.0.7.35.jar     | 8727a3141c8ec7f173b87aa78b9b9807867c4e6b |
+	| UCHIJA | extrautils2                | 1.0                          | extrautils2-1.12-1.7.6.jar                      | None                                     |
+	| UCHIJA | mcjtylib_ng                | 3.0.0-alpha                  | mcjtylib-1.12-3.0.0-alpha.jar                   | None                                     |
+	| UCHIJA | gearswap                   | 1.6.0-alpha                  | gearswap-1.12-1.6.0-alpha.jar                   | None                                     |
+	| UCHIJA | gendustry                  | 1.6.5.8                      | gendustry-1.6.5.8-mc1.12.2.jar                  | None                                     |
+	| UCHIJA | pressure                   | 1.3.1.9                      | pressure-1.3.1.9-mc1.12.2.jar                   | None                                     |
+	| UCHIJA | thermalfoundation          | 2.5.0                        | ThermalFoundation-1.12.2-2.5.0.19-universal.jar | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | advgenerators              | 0.9.20.12                    | generators-0.9.20.12-mc1.12.2.jar               | None                                     |
+	| UCHIJA | gravestone                 | 1.10.1                       | gravestone-1.10.1.jar                           | None                                     |
+	| UCHIJA | colorblindhelper           | 2.0.0                        | GrimCoColorblindHelper-2.0.0.jar                | None                                     |
+	| UCHIJA | guideapi                   | 1.12-2.1.5-60                | Guide-API-1.12-2.1.5-60.jar                     | None                                     |
+	| UCHIJA | harvestables               | 1.2                          | harvestables-1.2.1.jar                          | None                                     |
+	| UCHIJA | hatchery                   | 2.1.2                        | hatchery-1.12.2-2.1.2.jar                       | None                                     |
+	| UCHIJA | incontrol                  | 3.8.0                        | incontrol-1.12-3.8.0.jar                        | None                                     |
+	| UCHIJA | inventorytweaks            | 1.64-dev+release.110.b4fac73 | InventoryTweaks-1.64-dev.jar                    | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| UCHIJA | ironchest                  | 1.12.2-7.0.42.827            | ironchest-1.12.2-7.0.42.827.jar                 | None                                     |
+	| UCHIJA | jeibees                    | 0.9.0.5                      | jeibees-0.9.0.5-mc1.12.2.jar                    | None                                     |
+	| UCHIJA | journeymap                 | 1.12.2-5.5.2                 | journeymap-1.12.2-5.5.2.jar                     | None                                     |
+	| UCHIJA | justenoughbuttons          | 1.12-1.2                     | justenoughbuttons-1.12.2-1.2.2-5.jar            | None                                     |
+	| UCHIJA | jeresources                | 0.8.7.41                     | JustEnoughResources-1.12.2-0.8.7.41.jar         | None                                     |
+	| UCHIJA | loadout                    | 1.0.2                        | Loadout-1.0.2.jar                               | None                                     |
+	| UCHIJA | metamorph                  | 1.1.6                        | metamorph-1.1.6-1.12.2.jar                      | None                                     |
+	| UCHIJA | modnametooltip             | 1.10.0                       | modnametooltip_1.12.2-1.10.0.jar                | None                                     |
+	| UCHIJA | storagedrawers             | 1.12-5.3.5                   | StorageDrawers-1.12.2-5.3.6.jar                 | None                                     |
+	| UCHIJA | refinedstorage             | 1.5.34                       | refinedstorage-1.5.34.jar                       | 57893d5b90a7336e8c63fe1c1e1ce472c3d59578 |
+	| UCHIJA | morechickens               | 3.2.0                        | morechickens-1.12.2-3.2.0.jar                   | None                                     |
+	| UCHIJA | mousetweaks                | 2.8                          | MouseTweaks-2.8-mc1.12.1.jar                    | None                                     |
+	| UCHIJA | multistorage               | 1.4.10                       | multistorage-1.12.0-1.4.10.jar                  | None                                     |
+	| UCHIJA | notenoughwands             | 1.7.0-alpha                  | notenoughwands-1.12-1.7.0-alpha.jar             | None                                     |
+	| UCHIJA | placebo                    | 1.3.4                        | Placebo-1.12.2-1.3.4.jar                        | None                                     |
+	| UCHIJA | prefab                     | 1.3.0.22                     | prefab-1.3.0.22.jar                             | None                                     |
+	| UCHIJA | projecte                   | 1.12-PE1.3.0                 | ProjectE-1.12-PE1.3.0.jar                       | None                                     |
+	| UCHIJA | questbook                  | 3.1.1-1.12                   | questbook-3.1.1-1.12.jar                        | None                                     |
+	| UCHIJA | rangedpumps                | 0.5                          | rangedpumps-0.5.jar                             | None                                     |
+	| UCHIJA | rebornstorage              | 1.0.0                        | RebornStorage-1.12.2-3.1.0.50.jar               | None                                     |
+	| UCHIJA | rfa                        | 1.0.0                        | RecipesForAll-1.0.0.jar                         | None                                     |
+	| UCHIJA | thermalexpansion           | 5.5.0                        | ThermalExpansion-1.12.2-5.5.0.29-universal.jar  | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | redstonearsenal            | 2.5.0                        | RedstoneArsenal-1.12.2-2.5.0.10-universal.jar   | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | refinedstorageaddons       | 0.3                          | refinedstorageaddons-0.3.jar                    | None                                     |
+	| UCHIJA | resourceloader             | 1.5.3                        | ResourceLoader-MC1.12.1-1.5.3.jar               | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| UCHIJA | rftools                    | 7.50-alpha                   | rftools-1.12-7.50-alpha.jar                     | None                                     |
+	| UCHIJA | rftoolspower               | 1.1.0-alpha                  | rftoolspower-1.12-1.1.0-alpha.jar               | None                                     |
+	| UCHIJA | scannable                  | 1.6.3.19                     | Scannable-MC1.12-1.6.3.19.jar                   | None                                     |
+	| UCHIJA | shearmadness               | 1.12.1                       | shearmadness-1.12.1-1.7.0.3.jar                 | None                                     |
+	| UCHIJA | simplebedding              | 1.1.1                        | simplebedding-1.1.1.jar                         | None                                     |
+	| UCHIJA | bq_standard                | 3.4.143                      | StandardExpansion-3.4.143.jar                   | None                                     |
+	| UCHIJA | storageboats               | 3.1                          | StorageBoats-3.2.1.jar                          | None                                     |
+	| UCHIJA | survivalsystems            | 1.2.4                        | SurvivalSystems-1.2.4.jar                       | None                                     |
+	| UCHIJA | theoneprobe                | 1.4.23-alpha                 | theoneprobe-1.12-1.4.23-alpha.jar               | None                                     |
+	| UCHIJA | thermalcultivation         | 0.3.0                        | ThermalCultivation-1.12.2-0.3.0.7-universal.jar | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | thermaldynamics            | 2.5.1                        | ThermalDynamics-1.12.2-2.5.1.13-universal.jar   | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | thermalinnovation          | 0.3.0                        | ThermalInnovation-1.12.2-0.3.0.7-universal.jar  | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+	| UCHIJA | toastcontrol               | 1.6.0                        | Toast Control-1.12.2-1.6.0.jar                  | None                                     |
+	| UCHIJA | topaddons                  | 1.12.2-1.7.0                 | topaddons-1.12.2-1.7.0.jar                      | None                                     |
+	| UCHIJA | trashslot                  | 8.4.6                        | TrashSlot_1.12.1-8.4.6.jar                      | None                                     |
+	| UCHIJA | treechopper                | 1.2.4                        | TreeChopper-1.12.2-1.2.4.jar                    | None                                     |
+	| UCHIJA | uppers                     | 0.0.6                        | Uppers-0.0.6.jar                                | None                                     |
+	| UCHIJA | woot                       | 1.12.2-1.3.0                 | woot-1.12.2-1.3.0.jar                           | None                                     |
+	| UCHIJA | reauth                     | 3.6.0                        | reauth-3.6.0.jar                                | daba0ec4df71b6da841768c49fb873def208a1e3 |
+
+	Loaded coremods (and transformers): 
+CTMCorePlugin (CTM-MC1.12-0.2.3.12.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+ComfortsCoreLoadingPlugin (comforts-1.12.2-1.1.1.1.jar)
+  c4.comforts.asm.SleepTransformer
+ShetiPhian-ASM (shetiphiancore-1.12.0-3.5.6.jar)
+  shetiphian.asm.ClassTransformer
+Inventory Tweaks Coremod (InventoryTweaks-1.64-dev.jar)
+  invtweaks.forge.asm.ContainerTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+ColorblindHelperPlugin (GrimCoColorblindHelper-2.0.0.jar)
+  grimco.colorblindhelper.transform.ColorblindHelperTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 391.35' Renderer: 'GeForce GTX 960/PCIe/SSE2'
+	List of loaded APIs: 
+		* actuallyadditionsapi (33) from ActuallyAdditions-1.12.2-r135.jar
+		* Base|API (1.0.0) from base-1.12.2-3.7.2.jar
+		* Baubles|API (1.4.0.2) from Baubles-1.12-1.5.2.jar
+		* BetterQuesting|API (3.1) from BetterQuesting-3.5.258.jar
+		* BetterQuesting|API2 (3.1) from BetterQuesting-3.5.258.jar
+		* BetterWithModsAPI (Beta 0.6) from AppleSkin-mc1.12-1.0.9.jar
+		* BotaniaAPI (79) from AkashicTome-1.2-10.jar
+		* Chisel-API (0.0.1) from Chisel-MC1.12.2-0.2.0.31.jar
+		* ChiselAPI|Carving (0.0.1) from Chisel-MC1.12.2-0.2.0.31.jar
+		* ChiselsAndBitsAPI (13.8.0) from chiselsandbits-14.17.jar
+		* cofhapi (2.5.0) from CoFHCore-1.12.2-4.5.1.18-universal.jar
+		* ctm-api (0.1.0) from CTM-MC1.12-0.2.3.12.jar
+		* ctm-api-events (0.1.0) from CTM-MC1.12-0.2.3.12.jar
+		* ctm-api-models (0.1.0) from CTM-MC1.12-0.2.3.12.jar
+		* ctm-api-textures (0.1.0) from CTM-MC1.12-0.2.3.12.jar
+		* ctm-api-utils (0.1.0) from CTM-MC1.12-0.2.3.12.jar
+		* ForestryAPI|apiculture (5.0.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|arboriculture (4.3.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|book (5.8.1) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|circuits (3.1.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|climate (5.0.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|core (5.7.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|farming (5.8.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|food (1.1.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|fuels (3.0.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|genetics (5.7.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|greenhouse (5.2.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|gui (5.8.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|hives (4.1.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|lepidopterology (1.4.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|mail (3.1.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|modules (5.7.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|multiblock (3.0.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|recipes (5.4.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|storage (5.0.0) from forestry_1.12.2-5.8.0.295.jar
+		* ForestryAPI|world (2.1.0) from forestry_1.12.2-5.8.0.295.jar
+		* gendustryAPI (2.3.0) from gendustry-1.6.5.8-mc1.12.2.jar
+		* Guide-API|API (2.0.0) from Guide-API-1.12-2.1.5-60.jar
+		* HatcheryAPI (1.11.2R1.0.0) from hatchery-1.12.2-2.1.2.jar
+		* jeresources|API (0.8.7.41) from JustEnoughResources-1.12.2-0.8.7.41.jar
+		* journeymap|client-api (1.4) from journeymap-1.12.2-5.5.2.jar
+		* journeymap|client-api-display (1.4) from journeymap-1.12.2-5.5.2.jar
+		* journeymap|client-api-event (1.4) from journeymap-1.12.2-5.5.2.jar
+		* journeymap|client-api-model (1.4) from journeymap-1.12.2-5.5.2.jar
+		* journeymap|client-api-util (1.4) from journeymap-1.12.2-5.5.2.jar
+		* JustEnoughItemsAPI (4.13.0) from jei_1.12.2-4.9.2.196.jar
+		* MouseTweaks|API (1.0) from MouseTweaks-2.8-mc1.12.1.jar
+		* pressureAPI (1.3.1.9) from pressure-1.3.1.9-mc1.12.2.jar
+		* projecteapi (1.12.2-1.0.0) from ProjectE-1.12-PE1.3.0.jar
+		* reborncoreAPI (3.8.5.290) from RebornCore-1.12.2-3.8.5.290-universal.jar
+		* reborncoreAPI|Power (3.8.5.290) from RebornCore-1.12.2-3.8.5.290-universal.jar
+		* reborncoreAPI|Recipe (3.8.5.290) from RebornCore-1.12.2-3.8.5.290-universal.jar
+		* reborncoreAPI|Tile (3.8.5.290) from RebornCore-1.12.2-3.8.5.290-universal.jar
+		* shearmadness.api (@API_VERSION@) from shearmadness-1.12.1-1.7.0.3.jar
+		* shearmadness_api_plumbing (1.0) from shearmadness-1.12.1-1.7.0.3.jar
+		* StorageDrawersAPI (2.1.0) from StorageDrawers-1.12.2-5.3.6.jar
+		* StorageDrawersAPI|event (2.1.0) from StorageDrawers-1.12.2-5.3.6.jar
+		* StorageDrawersAPI|registry (2.1.0) from StorageDrawers-1.12.2-5.3.6.jar
+		* StorageDrawersAPI|render (2.1.0) from StorageDrawers-1.12.2-5.3.6.jar
+		* StorageDrawersAPI|storage (2.1.0) from StorageDrawers-1.12.2-5.3.6.jar
+		* StorageDrawersAPI|storage-attribute (2.1.0) from StorageDrawers-1.12.2-5.3.6.jar
+		* techrebornAPI (2.15.10.677) from TechReborn-1.12.2-2.15.10.677-universal.jar
+		* theoneprobe_api (1.4.4) from theoneprobe-1.12-1.4.23-alpha.jar
+	RebornCore: 
+		Plugin Engine: 0
+		RebornCore Version: 3.8.5.290
+		Runtime Debofucsation 1
+		RenderEngine: 0
+	forestry : Modules have been disabled in the config: BuildCraft 6 Statements, BuildCraft 6 Fuels, HarvestCraft, BuildCraft 6 Transport, BuildCraft 6 Recipes, Natura, IndustrialCraft2, ImmersiveEngineering, Mystical Agriculture, Better With Mods, Roots, rustic, EnderIO
+	Launched Version: MultiMC5
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 960/PCIe/SSE2 GL version 4.6.0 NVIDIA 391.35, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz

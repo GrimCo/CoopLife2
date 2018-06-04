@@ -227,6 +227,14 @@
     {
       "item": "actuallyadditions:item_crystal_empowered|1",
       "emc": 2068
+    },
+    {
+      "item": "techreborn:ingot|12",
+      "emc": 512
+    },
+    {
+      "item": "contenttweaker:gc_mixed_metal|0",
+      "emc": 800
     }
   ]
 }
