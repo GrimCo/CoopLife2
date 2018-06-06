@@ -6,3 +6,28 @@ item.contenttweaker.crystallattice.name=Crystalline Lattice
 //Fancy must be preserved
 item.contenttweaker.gc_mixed_metal.name=§9Raw Heavy-Duty Composite
 item.contenttweaker.gc_alloy_metal.name=§9Heavy-Duty Ingot
+
+
+//Start of Super Secret
+item.contenttweaker.tool_pan.name=Cooking Pan
+item.contenttweaker.tool_pot.name=Cooking Pot
+item.contenttweaker.tool_knife.name=Kitchen Knife
+item.contenttweaker.tool_grinder.name=Kitchen Grinder
+item.contenttweaker.food_vinegar.name=Vinegar
+item.contenttweaker.food_oil.name=Cooking Oil
+item.contenttweaker.food_juice.name=Fruit Juice
+item.contenttweaker.food_nutbutter.name=Nut Butter
+item.contenttweaker.food_jam.name=Fruit Jam
+item.contenttweaker.food_mayo.name=Mayo
+item.contenttweaker.food_egg_boiled.name=Boiled Egg
+item.contenttweaker.food_egg_salad.name=Egg Salad Sandwich
+item.contenttweaker.food_pie_fruit.name=Fruit Pie
+item.contenttweaker.food_pie_meat.name=Meat Pie
+item.contenttweaker.food_pie_nut.name=Nut Pie
+item.contenttweaker.food_pbj.name=Nut Butter and Jam Sandwich
+item.contenttweaker.food_pbm.name=Nut Butter and Mayo Sandwich
+item.contenttweaker.food_skillet_breakfast.name=Breakfast Skillet
+item.contenttweaker.food_beets_pickled.name=Pickled Beets
+item.contenttweaker.food_coffee_roasted.name=Coffee Beans (Roasted)
+item.contenttweaker.food_coffe_ground.name=Coffee Beans (Ground)
+item.contenttweaker.food_drink_cluckuccino.name=Cluckuccino
