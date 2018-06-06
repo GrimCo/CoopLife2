@@ -1,5 +1,6 @@
 import mods.techreborn.alloySmelter;
 import mods.techreborn.compressor;
+import mods.thermalexpansion.Imbuer;
 
 var ore_sapphire = <galacticraftcore:basic_block_moon:6>;
 var gem_sapphire = <galacticraftcore:item_basic_moon:2>;
@@ -15,26 +16,27 @@ var block_meteoric_iron = <galacticraftcore:basic_block_core:12>;
 <ore:oreLunarSapphire>.add(ore_sapphire);
 <ore:gemLunarSapphire>.add(gem_sapphire);
 
-<ore:compressedCopper>.addAll(<ore:plateCopper>);
-<ore:plateCopper>.mirror(<ore:compressedCopper>);
-<ore:compressedTin>.addAll(<ore:plateTin>);
-<ore:plateTin>.mirror(<ore:compressedTin>);
-<ore:compressedAluminum>.addAll(<ore:plateAluminum>);
+
+<ore:plateCopper>.addAll(<ore:compressedCopper>);
+<ore:compressedCopper>.mirror(<ore:plateCopper>);
+<ore:plateTin>.addAll(<ore:compressedTin>);
+<ore:compressedTin>.mirror(<ore:plateTin>);
 <ore:plateAluminum>.addAll(<ore:compressedAluminum>);
-<ore:compressedSteel>.addAll(<ore:plateSteel>);
+<ore:compressedAluminum>.addAll(<ore:plateAluminum>);
 <ore:plateSteel>.addAll(<ore:compressedSteel>);
-<ore:compressedBronze>.addAll(<ore:plateBronze>);
-<ore:plateBronze>.mirror(<ore:compressedBronze>);
-<ore:compressedIron>.addAll(<ore:plateIron>);
-<ore:plateIron>.mirror(<ore:compressedIron>);
+<ore:compressedSteel>.addAll(<ore:plateSteel>);
+<ore:plateBronze>.addAll(<ore:compressedBronze>);
+<ore:compressedBronze>.mirror(<ore:plateBronze>);
+<ore:plateIron>.addAll(<ore:compressedIron>);
+<ore:compressedIron>.mirror(<ore:plateIron>);
 <ore:plateMeteoricIron>.mirror(<ore:compressedMeteoricIron>);
 <ore:plateDesh>.mirror(<ore:compressedDesh>);
-<ore:compressedTitanium>.addAll(<ore:plateTitanium>);
-<ore:plateTitanium>.mirror(<ore:compressedTitanium>);
-<ore:waferBasic>.addAll(<ore:circuitBasic>);
-<ore:circuitBasic>.mirror(<ore:waferBasic>);
-<ore:waferAdvanced>.addAll(<ore:circuitAdvanced>);
-<ore:circuitAdvanced>.mirror(<ore:waferAdvanced>);
+<ore:plateTitanium>.addAll(<ore:compressedTitanium>);
+<ore:compressedTitanium>.mirror(<ore:plateTitanium>);
+<ore:circuitBasic>.addAll(<ore:waferBasic>);
+<ore:waferBasic>.mirror(<ore:circuitBasic>);
+<ore:circuitAdvanced>.addAll(<ore:waferAdvanced>);
+<ore:waferAdvanced>.mirror(<ore:circuitAdvanced>);
 
 <ore:plateHeavyDuty>.add(<galacticraftcore:heavy_plating>);
 <ore:plateHeavyDutyFeX>.add(<galacticraftplanets:item_basic_mars:3>);
@@ -49,5 +51,9 @@ furnace.addRecipe(<contenttweaker:gc_alloy_metal>,<contenttweaker:gc_mixed_metal
 
 compressor.addRecipe(<galacticraftcore:heavy_plating>,<contenttweaker:gc_alloy_metal>,200,4);
 
+Imbuer.addRecipe(<liquid:fuel> * 10, <hatchery:chickenmanure>, <liquid:oxygen> * 500, 4000);
+
 alloySmelter.addRecipe(<galacticraftplanets:item_basic_mars:3>,<galacticraftcore:heavy_plating>,<galacticraftcore:item_basic_moon:1>,200,16);
+
 alloySmelter.addRecipe(<galacticraftplanets:item_basic_asteroids:5>,<galacticraftplanets:item_basic_mars:3>,<galacticraftplanets:item_basic_mars:5>,200,16);
+
