@@ -2,10 +2,10 @@ item.contenttweaker.plasticpurple.name=Purple Glazed Plastic
 item.contenttweaker.deathbook.name=Death Notebook
 item.contenttweaker.crystallattice.name=Crystalline Lattice
 
-//These get §9 to make them Blue like the Galacticraft Items.
+//These get ?9 to make them Blue like the Galacticraft Items.
 //Fancy must be preserved
-item.contenttweaker.gc_mixed_metal.name=§9Raw Heavy-Duty Composite
-item.contenttweaker.gc_alloy_metal.name=§9Heavy-Duty Ingot
+item.contenttweaker.gc_mixed_metal.name=Raw Heavy-Duty Composite
+item.contenttweaker.gc_alloy_metal.name=Heavy-Duty Ingot
 
 
 //Start of Super Secret
@@ -31,3 +31,4 @@ item.contenttweaker.food_beets_pickled.name=Pickled Beets
 item.contenttweaker.food_coffee_roasted.name=Coffee Beans (Roasted)
 item.contenttweaker.food_coffe_ground.name=Coffee Beans (Ground)
 item.contenttweaker.food_drink_cluckuccino.name=Cluckuccino
+item.contenttweaker.food_drink_coffee.name=Black Coffee

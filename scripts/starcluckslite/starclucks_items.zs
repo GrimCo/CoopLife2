@@ -85,9 +85,11 @@ food_beets_pickled.register();
 var food_drink_cluckuccino = VanillaFactory.createItemFood("food_drink_cluckuccino",6);
 food_drink_cluckuccino.itemUseAction = "DRINK";
 food_drink_cluckuccino.saturation = 1.2;
+food_drink_cluckuccino.alwaysEdible = true;
 food_drink_cluckuccino.register();
 
 var food_drink_coffee = VanillaFactory.createItemFood("food_drink_coffee",6);
 food_drink_coffee.itemUseAction = "DRINK";
 food_drink_coffee.saturation = 1.2;
+food_drink_coffee.alwaysEdible = true;
 food_drink_coffee.register();
