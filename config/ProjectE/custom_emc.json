@@ -235,6 +235,350 @@
     {
       "item": "contenttweaker:gc_mixed_metal|0",
       "emc": 800
+    },
+    {
+      "item": "galacticraftcore:heavy_plating|0",
+      "emc": 800
+    },
+    {
+      "item": "galacticraftcore:item_basic_moon|0",
+      "emc": 1024
+    },
+    {
+      "item": "galacticraftcore:item_basic_moon|1",
+      "emc": 512
+    },
+    {
+      "item": "galacticraftplanets:item_basic_mars|2",
+      "emc": 1024
+    },
+    {
+      "item": "galacticraftplanets:item_basic_mars|5",
+      "emc": 512
+    },
+    {
+      "item": "galacticraftplanets:item_basic_mars|3",
+      "emc": 1312
+    },
+    {
+      "item": "galacticraftplanets:item_basic_asteroids|5",
+      "emc": 1824
+    },
+    {
+      "item": "galacticraftcore:basic_item|6",
+      "emc": 128
+    },
+    {
+      "item": "galacticraftcore:basic_item|7",
+      "emc": 256
+    },
+    {
+      "item": "galacticraftcore:basic_item|8",
+      "emc": 128
+    },
+    {
+      "item": "galacticraftcore:basic_item|9",
+      "emc": 512
+    },
+    {
+      "item": "galacticraftcore:basic_item|10",
+      "emc": 160
+    },
+    {
+      "item": "galacticraftcore:basic_item|11",
+      "emc": 256
+    },
+    {
+      "item": "galacticraftcore:basic_block_moon|3",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftcore:basic_block_moon|4",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftcore:basic_block_moon|5",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:mars|4",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:mars|5",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:mars|6",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:mars|9",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:asteroids_block|0",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:asteroids_block|1",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:asteroids_block|2",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:venus|0",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:venus|1",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:venus|3",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftplanets:venus_rock_scorched|0",
+      "emc": 1
+    },
+    {
+      "item": "galacticraftcore:item_basic_moon|2",
+      "emc": 16384
+    },
+    {
+      "item": "techreborn:dust|18",
+      "emc": 16384
+    },
+    {
+      "item": "techreborn:smalldust|18",
+      "emc": 4096
+    },
+    {
+      "item": "techreborn:plates|6",
+      "emc": 16384
+    },
+    {
+      "item": "techreborn:plates|35",
+      "emc": 480
+    },
+    {
+      "item": "techreborn:plates|2",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|16",
+      "emc": 8192
+    },
+    {
+      "item": "techreborn:plates|0",
+      "emc": 256
+    },
+    {
+      "item": "techreborn:plates|1",
+      "emc": 2048
+    },
+    {
+      "item": "techreborn:plates|20",
+      "emc": 128
+    },
+    {
+      "item": "techreborn:plates|29",
+      "emc": 256
+    },
+    {
+      "item": "techreborn:plates|27",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:plates|24",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:plates|16",
+      "emc": 128
+    },
+    {
+      "item": "techreborn:plates|25",
+      "emc": 1024
+    },
+    {
+      "item": "techreborn:plates|26",
+      "emc": 4096
+    },
+    {
+      "item": "techreborn:plates|18",
+      "emc": 160
+    },
+    {
+      "item": "techreborn:plates|22",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:plates|21",
+      "emc": 1280
+    },
+    {
+      "item": "techreborn:plates|28",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|1",
+      "emc": 128
+    },
+    {
+      "item": "techreborn:dust|7",
+      "emc": 160
+    },
+    {
+      "item": "techreborn:dust|12",
+      "emc": 16
+    },
+    {
+      "item": "techreborn:dust|14",
+      "emc": 128
+    },
+    {
+      "item": "techreborn:dust|17",
+      "emc": 1280
+    },
+    {
+      "item": "techreborn:dust|23",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|24",
+      "emc": 2048
+    },
+    {
+      "item": "techreborn:dust|26",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|27",
+      "emc": 256
+    },
+    {
+      "item": "techreborn:dust|29",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|35",
+      "emc": 16
+    },
+    {
+      "item": "techreborn:dust|34",
+      "emc": 1024
+    },
+    {
+      "item": "techreborn:dust|36",
+      "emc": 2048
+    },
+    {
+      "item": "techreborn:dust|38",
+      "emc": 4096
+    },
+    {
+      "item": "techreborn:dust|43",
+      "emc": 2048
+    },
+    {
+      "item": "techreborn:dust|45",
+      "emc": 2048
+    },
+    {
+      "item": "techreborn:dust|47",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|51",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|53",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|0",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|1",
+      "emc": 2048
+    },
+    {
+      "item": "thermalfoundation:material|64",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:material|65",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|66",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|67",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|68",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:material|69",
+      "emc": 1024
+    },
+    {
+      "item": "thermalfoundation:material|70",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:coal|0",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|769",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|768",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|96",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|97",
+      "emc": 1280
+    },
+    {
+      "item": "thermalfoundation:material|98",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|99",
+      "emc": 160
+    },
+    {
+      "item": "thermalfoundation:material|100",
+      "emc": 576
+    },
+    {
+      "item": "thermalfoundation:material|101",
+      "emc": 384
+    },
+    {
+      "item": "thermalfoundation:material|102",
+      "emc": 704
+    },
+    {
+      "item": "thermalfoundation:material|103",
+      "emc": 1601
     }
   ]
 }
