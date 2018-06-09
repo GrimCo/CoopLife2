@@ -423,6 +423,162 @@
     {
       "item": "techreborn:plates|28",
       "emc": 512
+    },
+    {
+      "item": "techreborn:dust|1",
+      "emc": 128
+    },
+    {
+      "item": "techreborn:dust|7",
+      "emc": 160
+    },
+    {
+      "item": "techreborn:dust|12",
+      "emc": 16
+    },
+    {
+      "item": "techreborn:dust|14",
+      "emc": 128
+    },
+    {
+      "item": "techreborn:dust|17",
+      "emc": 1280
+    },
+    {
+      "item": "techreborn:dust|23",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|24",
+      "emc": 2048
+    },
+    {
+      "item": "techreborn:dust|26",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|27",
+      "emc": 256
+    },
+    {
+      "item": "techreborn:dust|29",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|35",
+      "emc": 16
+    },
+    {
+      "item": "techreborn:dust|34",
+      "emc": 1024
+    },
+    {
+      "item": "techreborn:dust|36",
+      "emc": 2048
+    },
+    {
+      "item": "techreborn:dust|38",
+      "emc": 4096
+    },
+    {
+      "item": "techreborn:dust|43",
+      "emc": 2048
+    },
+    {
+      "item": "techreborn:dust|45",
+      "emc": 2048
+    },
+    {
+      "item": "techreborn:dust|47",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|51",
+      "emc": 512
+    },
+    {
+      "item": "techreborn:dust|53",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|0",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|1",
+      "emc": 2048
+    },
+    {
+      "item": "thermalfoundation:material|64",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:material|65",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|66",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|67",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|68",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:material|69",
+      "emc": 1024
+    },
+    {
+      "item": "thermalfoundation:material|70",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:coal|0",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|769",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|768",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|96",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|97",
+      "emc": 1280
+    },
+    {
+      "item": "thermalfoundation:material|98",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|99",
+      "emc": 160
+    },
+    {
+      "item": "thermalfoundation:material|100",
+      "emc": 576
+    },
+    {
+      "item": "thermalfoundation:material|101",
+      "emc": 384
+    },
+    {
+      "item": "thermalfoundation:material|102",
+      "emc": 704
+    },
+    {
+      "item": "thermalfoundation:material|103",
+      "emc": 1601
     }
   ]
 }
