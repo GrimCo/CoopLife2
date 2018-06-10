@@ -4902,7 +4902,7 @@
       "home_anchor_x:5": 0.5,
       "editmode:1": 0,
       "hardcore:1": 0,
-      "home_image:8": "betterquesting:title_card.png",
+      "home_image:8": "cooplife2:textures/gui/title_card.png",
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }
