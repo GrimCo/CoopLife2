@@ -91,6 +91,14 @@ print(" ==================================================== ");
 				},
 				Damage: 0 as short
 			},
+			galacticraftcore: {
+				id: "galacticraftcore:prelaunch_checklist",
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "galacticraftcore"
+				},
+				Damage: 0 as short
+			},
 			rftools1: {
 				id: "rftools:rftools_shape_manual",
 				Count: 1 as byte,
@@ -125,6 +133,7 @@ print(" ==================================================== ");
 		<questbook:itemquestbook>, 
 		<forestry:book_forester>, 
 		<guideapi:woot-guide>, 
+		<galacticraftcore:prelaunch_checklist>,  
 		<techreborn:techmanuel> 
 		] as IItemStack[];
 
