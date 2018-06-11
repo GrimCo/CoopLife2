@@ -88,3 +88,12 @@ InductionSmelter.addRecipe(<galacticraftplanets:item_basic_asteroids:5>,<galacti
 
 //Fuel from Oxygen and Chicken Poop, RIP Brown Matter
 Imbuer.addRecipe(<liquid:fuel> * 10, <hatchery:chickenmanure>, <liquid:oxygen> * 500, 4000);
+
+//Charcoal Fragments
+recipes.removeByRecipeName("galacticraftplanets:carbon_fragments_alt_alt");
+
+//Silicon Conversion
+recipes.addShapeless(<galacticraftcore:basic_item:2>, [<refinedstorage:silicon>]);
+<galacticraftcore:basic_item:2>.addTooltip("Can be crafted into Refined Storage Silicon");
+recipes.addShapeless(<refinedstorage:silicon>, [<galacticraftcore:basic_item:2>]);
+<refinedstorage:silicon>.addTooltip("Can be crafted into Galacticraft Silicon");
