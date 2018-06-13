@@ -63,7 +63,7 @@ food_pbj.register();
 
 var food_pbm = VanillaFactory.createItemFood("food_pbm",-5);
 food_pbm.saturation = 1.4;
-//food_pbm.alwaysEdible = true;
+food_pbm.alwaysEdible = true;
 food_pbm.register();
 
 var food_pie_fruit = VanillaFactory.createItemFood("food_pie_fruit", 10);
