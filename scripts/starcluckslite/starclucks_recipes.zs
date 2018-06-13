@@ -72,6 +72,11 @@ recipes.addShapeless(<contenttweaker:food_mayo> * 4,[<ore:egg>,<ore:egg>,foodOil
 recipes.addShapeless(<contenttweaker:food_jam> * 4,[<ore:listAllfruit>,<ore:listAllfruit>,<ore:toolPot>,foodSugar]);
 recipes.addShapeless(<contenttweaker:food_nutbutter>,[listAllnut,listAllnut,toolPot,foodSugar]);
 
+//Tools
+recipes.addShaped(<contenttweaker:tool_knife>,[[<ore:nuggetIron>],[<ore:nuggetIron>],[<ore:stickWood>]]);
+recipes.addShaped(<contenttweaker:tool_pan>,[[ null,<ore:nuggetIron>,<ore:nuggetIron>],[<ore:stickWood>,<ore:ingotIron>,<ore:ingotIron>]]);
+recipes.addShaped(<contenttweaker:tool_pot>,[[ null,<ore:nuggetIron>,<ore:nuggetIron>],[<ore:stickWood>,<ore:nuggetIron>,<ore:nuggetIron>],[null,<ore:ingotIron>,<ore:ingotIron>]]);
+
 //Coffee
 recipes.addShapeless(<contenttweaker:food_drink_cluckuccino>*4,[toolPot,<ore:cropCoffee>,<minecraft:milk_bucket>]);
 recipes.addShapeless(<contenttweaker:food_drink_coffee>*4,[toolPot, <ore:cropCoffee>]);
@@ -95,7 +100,7 @@ recipes.addShapeless(<contenttweaker:food_pbm> *2,[breadAll,<contenttweaker:food
 
 //Pies
 recipes.addShapeless(<contenttweaker:food_pie_fruit>,[doughAll,foodSugar,<ore:listAllfruit>,<ore:listAllfruit>,toolKnife]);
-recipes.addShapeless(<contenttweaker:food_pie_nut>,[doughAll,foodSugar,<ore:listAllnuts>,<ore:listAllnuts>,toolKnife]);
+recipes.addShapeless(<contenttweaker:food_pie_nut>,[doughAll,foodSugar,<ore:listAllnut>,<ore:listAllnut>,toolKnife]);
 recipes.addShapeless(<contenttweaker:food_pie_meat>,[doughAll,rawBeef,<ore:cropPotato>,<ore:cropCarrot>,toolKnife]);
 recipes.addShapeless(<contenttweaker:food_pie_meat>,[doughAll,rawPork,<ore:cropPotato>,<ore:cropCarrot>,toolKnife]);
 recipes.addShapeless(<contenttweaker:food_pie_meat>,[doughAll,rawChicken,<ore:cropPotato>,<ore:cropCarrot>,toolKnife]);
