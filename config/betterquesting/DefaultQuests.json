@@ -295,6 +295,69 @@
       }
     },
     "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyadditions:item_misc",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "If you like it than you shudda put a ring on it",
+          "desc:8": "RINGS! Err this is the basic one.... May need some extra crafting to make it more worthwhile...."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:item_misc",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 6
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 101
+            }
+          }
+        }
+      }
+    },
+    "6:10": {
       "questID:3": 6,
       "preRequisites:11": [
         2
@@ -319,8 +382,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Colored Eggs",
-          "desc:8": "These Eggs have only a chance to spawn special chickens, it is recommended to have some vanilla chickens around."
+          "name:8": "Coloured Eggs",
+          "desc:8": "These Eggs have only a chance to spawn special chickens, it is recommended to have some vanilla chickens around.\n(No that wasn\u0027t spelled incorrectly, colour, proper English)"
         }
       },
       "tasks:9": {
@@ -357,7 +420,7 @@
         }
       }
     },
-    "6:10": {
+    "7:10": {
       "questID:3": 7,
       "preRequisites:11": [],
       "properties:10": {
@@ -400,7 +463,7 @@
         }
       }
     },
-    "7:10": {
+    "8:10": {
       "questID:3": 8,
       "preRequisites:11": [
         60
@@ -450,9 +513,22 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "projecte:item.pe_repair_talisman",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
-    "8:10": {
+    "9:10": {
       "questID:3": 9,
       "preRequisites:11": [],
       "properties:10": {
@@ -508,7 +584,7 @@
       },
       "rewards:9": {}
     },
-    "9:10": {
+    "10:10": {
       "questID:3": 10,
       "preRequisites:11": [
         19
@@ -579,7 +655,7 @@
         }
       }
     },
-    "10:10": {
+    "11:10": {
       "questID:3": 11,
       "preRequisites:11": [
         19
@@ -654,7 +730,7 @@
         }
       }
     },
-    "11:10": {
+    "12:10": {
       "questID:3": 12,
       "preRequisites:11": [
         11,
@@ -723,7 +799,7 @@
       },
       "rewards:9": {}
     },
-    "12:10": {
+    "13:10": {
       "questID:3": 13,
       "preRequisites:11": [
         22
@@ -868,7 +944,7 @@
         }
       }
     },
-    "13:10": {
+    "14:10": {
       "questID:3": 14,
       "preRequisites:11": [
         19
@@ -926,7 +1002,7 @@
       },
       "rewards:9": {}
     },
-    "14:10": {
+    "15:10": {
       "questID:3": 15,
       "preRequisites:11": [
         14
@@ -984,7 +1060,7 @@
       },
       "rewards:9": {}
     },
-    "15:10": {
+    "16:10": {
       "questID:3": 16,
       "preRequisites:11": [
         20
@@ -1092,7 +1168,7 @@
       },
       "rewards:9": {}
     },
-    "16:10": {
+    "17:10": {
       "questID:3": 17,
       "preRequisites:11": [
         16
@@ -1216,7 +1292,7 @@
       },
       "rewards:9": {}
     },
-    "17:10": {
+    "18:10": {
       "questID:3": 18,
       "preRequisites:11": [
         11,
@@ -1345,7 +1421,7 @@
       },
       "rewards:9": {}
     },
-    "18:10": {
+    "19:10": {
       "questID:3": 19,
       "preRequisites:11": [
         9
@@ -1472,7 +1548,7 @@
         }
       }
     },
-    "19:10": {
+    "20:10": {
       "questID:3": 20,
       "preRequisites:11": [
         22
@@ -1580,7 +1656,7 @@
       },
       "rewards:9": {}
     },
-    "20:10": {
+    "21:10": {
       "questID:3": 21,
       "preRequisites:11": [
         22
@@ -1701,7 +1777,7 @@
         }
       }
     },
-    "21:10": {
+    "22:10": {
       "questID:3": 22,
       "preRequisites:11": [
         9
@@ -1759,7 +1835,7 @@
       },
       "rewards:9": {}
     },
-    "22:10": {
+    "23:10": {
       "questID:3": 23,
       "preRequisites:11": [
         24,
@@ -1796,7 +1872,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "23:10": {
+    "24:10": {
       "questID:3": 24,
       "preRequisites:11": [
         18
@@ -1854,7 +1930,7 @@
       },
       "rewards:9": {}
     },
-    "24:10": {
+    "25:10": {
       "questID:3": 25,
       "preRequisites:11": [
         23
@@ -1912,7 +1988,7 @@
       },
       "rewards:9": {}
     },
-    "25:10": {
+    "26:10": {
       "questID:3": 26,
       "preRequisites:11": [
         12
@@ -1990,7 +2066,7 @@
       },
       "rewards:9": {}
     },
-    "26:10": {
+    "27:10": {
       "questID:3": 27,
       "preRequisites:11": [
         12
@@ -2048,7 +2124,7 @@
       },
       "rewards:9": {}
     },
-    "27:10": {
+    "28:10": {
       "questID:3": 28,
       "preRequisites:11": [
         12
@@ -2146,7 +2222,7 @@
       },
       "rewards:9": {}
     },
-    "28:10": {
+    "29:10": {
       "questID:3": 29,
       "preRequisites:11": [
         26
@@ -2224,7 +2300,7 @@
       },
       "rewards:9": {}
     },
-    "29:10": {
+    "30:10": {
       "questID:3": 30,
       "preRequisites:11": [
         6
@@ -2266,7 +2342,7 @@
       },
       "rewards:9": {}
     },
-    "30:10": {
+    "31:10": {
       "questID:3": 31,
       "preRequisites:11": [
         30
@@ -2335,7 +2411,7 @@
         }
       }
     },
-    "31:10": {
+    "32:10": {
       "questID:3": 32,
       "preRequisites:11": [
         30
@@ -2410,7 +2486,7 @@
         }
       }
     },
-    "32:10": {
+    "33:10": {
       "questID:3": 33,
       "preRequisites:11": [
         30
@@ -2473,7 +2549,7 @@
         }
       }
     },
-    "33:10": {
+    "34:10": {
       "questID:3": 34,
       "preRequisites:11": [
         31
@@ -2523,7 +2599,7 @@
       },
       "rewards:9": {}
     },
-    "34:10": {
+    "35:10": {
       "questID:3": 35,
       "preRequisites:11": [
         46
@@ -2586,7 +2662,7 @@
         }
       }
     },
-    "35:10": {
+    "36:10": {
       "questID:3": 36,
       "preRequisites:11": [
         8
@@ -2611,7 +2687,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Transmutaion",
+          "name:8": "Transmutation",
           "desc:8": "Turn This into That!\n(dont try and revive someone, souls are priceless)"
         }
       },
@@ -2649,7 +2725,7 @@
         }
       }
     },
-    "36:10": {
+    "37:10": {
       "questID:3": 37,
       "preRequisites:11": [
         1
@@ -2712,7 +2788,7 @@
         }
       }
     },
-    "37:10": {
+    "38:10": {
       "questID:3": 38,
       "preRequisites:11": [
         36
@@ -2777,7 +2853,7 @@
         }
       }
     },
-    "38:10": {
+    "39:10": {
       "questID:3": 39,
       "preRequisites:11": [
         38
@@ -2846,7 +2922,7 @@
         }
       }
     },
-    "39:10": {
+    "40:10": {
       "questID:3": 40,
       "preRequisites:11": [
         1
@@ -3052,7 +3128,7 @@
         }
       }
     },
-    "40:10": {
+    "41:10": {
       "questID:3": 41,
       "preRequisites:11": [
         40
@@ -3115,7 +3191,7 @@
         }
       }
     },
-    "41:10": {
+    "42:10": {
       "questID:3": 42,
       "preRequisites:11": [
         43
@@ -3184,7 +3260,7 @@
         }
       }
     },
-    "42:10": {
+    "43:10": {
       "questID:3": 43,
       "preRequisites:11": [
         41
@@ -3247,7 +3323,7 @@
         }
       }
     },
-    "43:10": {
+    "44:10": {
       "questID:3": 44,
       "preRequisites:11": [
         42
@@ -3310,7 +3386,7 @@
         }
       }
     },
-    "44:10": {
+    "45:10": {
       "questID:3": 45,
       "preRequisites:11": [
         4
@@ -3373,7 +3449,7 @@
         }
       }
     },
-    "45:10": {
+    "46:10": {
       "questID:3": 46,
       "preRequisites:11": [
         47
@@ -3436,7 +3512,7 @@
         }
       }
     },
-    "46:10": {
+    "47:10": {
       "questID:3": 47,
       "preRequisites:11": [
         45
@@ -3499,7 +3575,7 @@
         }
       }
     },
-    "47:10": {
+    "48:10": {
       "questID:3": 48,
       "preRequisites:11": [
         35
@@ -3562,7 +3638,7 @@
         }
       }
     },
-    "48:10": {
+    "49:10": {
       "questID:3": 49,
       "preRequisites:11": [
         62
@@ -3637,7 +3713,7 @@
         }
       }
     },
-    "49:10": {
+    "50:10": {
       "questID:3": 50,
       "preRequisites:11": [
         51
@@ -3700,7 +3776,7 @@
         }
       }
     },
-    "50:10": {
+    "51:10": {
       "questID:3": 51,
       "preRequisites:11": [
         49
@@ -3797,7 +3873,7 @@
         }
       }
     },
-    "51:10": {
+    "52:10": {
       "questID:3": 52,
       "preRequisites:11": [
         37
@@ -3860,7 +3936,7 @@
         }
       }
     },
-    "52:10": {
+    "53:10": {
       "questID:3": 53,
       "preRequisites:11": [
         52
@@ -3923,7 +3999,7 @@
         }
       }
     },
-    "53:10": {
+    "54:10": {
       "questID:3": 54,
       "preRequisites:11": [
         53
@@ -3986,7 +4062,7 @@
         }
       }
     },
-    "54:10": {
+    "55:10": {
       "questID:3": 55,
       "preRequisites:11": [
         56
@@ -4067,7 +4143,7 @@
         }
       }
     },
-    "55:10": {
+    "56:10": {
       "questID:3": 56,
       "preRequisites:11": [
         54
@@ -4130,7 +4206,7 @@
         }
       }
     },
-    "56:10": {
+    "57:10": {
       "questID:3": 57,
       "preRequisites:11": [
         56
@@ -4205,7 +4281,7 @@
         }
       }
     },
-    "57:10": {
+    "58:10": {
       "questID:3": 58,
       "preRequisites:11": [
         55
@@ -4268,10 +4344,10 @@
         }
       }
     },
-    "58:10": {
+    "59:10": {
       "questID:3": 59,
       "preRequisites:11": [
-        60
+        61
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4337,7 +4413,7 @@
         }
       }
     },
-    "59:10": {
+    "60:10": {
       "questID:3": 60,
       "preRequisites:11": [
         62,
@@ -4363,7 +4439,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Atomic Reconstucting",
+          "name:8": "Atomic Reconstructing",
           "desc:8": "LAZORS"
         }
       },
@@ -4401,10 +4477,10 @@
         }
       }
     },
-    "60:10": {
+    "61:10": {
       "questID:3": 61,
       "preRequisites:11": [
-        59
+        5
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4470,7 +4546,7 @@
         }
       }
     },
-    "61:10": {
+    "62:10": {
       "questID:3": 62,
       "preRequisites:11": [
         1
@@ -4513,6 +4589,156 @@
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 101
+            }
+          }
+        }
+      }
+    },
+    "63:10": {
+      "questID:3": 63,
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyadditions:item_crystal",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Crystals",
+          "desc:8": "The Atomic Reconstructor (after power and a redstone signal) can convert various (vanilla) precious materials into crystals which can later be empowered or used for tools and other items."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:item_crystal",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 5
+            },
+            "1:10": {
+              "id:8": "actuallyadditions:item_crystal",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2
+            },
+            "2:10": {
+              "id:8": "actuallyadditions:item_crystal",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 4
+            },
+            "3:10": {
+              "id:8": "actuallyadditions:item_crystal",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 101
+            }
+          }
+        }
+      }
+    },
+    "64:10": {
+      "questID:3": 64,
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "actuallyadditions:item_drill",
+            "Count:3": 1,
+            "tag:10": {
+              "Energy:3": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Drilling Drilling Drilling",
+          "desc:8": "3 by 3 mining! YAHHH... Oh wait hammers do that ... Toooo..... RE-USABLER HAMMERS AWWW YAH"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "actuallyadditions:item_drill",
+              "Count:3": 1,
+              "tag:10": {
+                "Energy:3": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4802,14 +5028,32 @@
         "0:10": {
           "size:3": 24,
           "x:3": -12,
-          "y:3": 6,
-          "id:3": 59
+          "y:3": -24,
+          "id:3": 5
         },
         "1:10": {
           "size:3": 24,
           "x:3": -12,
-          "y:3": 36,
+          "y:3": 42,
+          "id:3": 59
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 12,
           "id:3": 61
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": -54,
+          "id:3": 63
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": 18,
+          "y:3": -6,
+          "id:3": 64
         }
       },
       "lineID:3": 5,
