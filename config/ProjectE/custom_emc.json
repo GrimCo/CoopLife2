@@ -579,6 +579,114 @@
     {
       "item": "thermalfoundation:material|103",
       "emc": 1601
+    },
+    {
+      "item": "techreborn:ingot|19",
+      "emc": 256
+    },
+    {
+      "item": "techreborn:plates|34",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|2052",
+      "emc": 1536
+    },
+    {
+      "item": "thermalfoundation:material|2048",
+      "emc": 1536
+    },
+    {
+      "item": "thermalfoundation:material|2050",
+      "emc": 1536
+    },
+    {
+      "item": "thermaldynamics:duct_0|2",
+      "emc": 586
+    },
+    {
+      "item": "forestry:oak_stick|0",
+      "emc": 112
+    },
+    {
+      "item": "forestry:impregnated_casing|0",
+      "emc": 656
+    },
+    {
+      "item": "hatchery:manure_block|0",
+      "emc": 9
+    },
+    {
+      "item": "hatchery:chickenmanure|0",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:dirt|8",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:dirt|9",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:dirt|1",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:dirt|10",
+      "emc": 2
+    },
+    {
+      "item": "biomesoplenty:dirt|2",
+      "emc": 1
+    },
+    {
+      "item": "extrautils2:ingredients|3",
+      "emc": 864
+    },
+    {
+      "item": "actuallyadditions:item_rice_seed|0",
+      "emc": 16
+    },
+    {
+      "item": "actuallyadditions:item_canola_seed|0",
+      "emc": 16
+    },
+    {
+      "item": "actuallyadditions:item_flax_seed|0",
+      "emc": 16
+    },
+    {
+      "item": "actuallyadditions:item_coffee_seed|0",
+      "emc": 16
+    },
+    {
+      "item": "actuallyadditions:item_food|16",
+      "emc": 16
+    },
+    {
+      "item": "actuallyadditions:item_misc|13",
+      "emc": 64
+    },
+    {
+      "item": "actuallyadditions:item_coffee_beans|0",
+      "emc": 64
+    },
+    {
+      "item": "contenttweaker:tool_knife|0",
+      "emc": 60
+    },
+    {
+      "item": "contenttweaker:tool_pan|0",
+      "emc": 572
+    },
+    {
+      "item": "contenttweaker:tool_pot|0",
+      "emc": 628
     }
   ]
 }
