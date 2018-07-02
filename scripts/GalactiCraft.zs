@@ -97,3 +97,7 @@ recipes.addShapeless(<galacticraftcore:basic_item:2>, [<refinedstorage:silicon>]
 <galacticraftcore:basic_item:2>.addTooltip("Can be crafted into Refined Storage Silicon");
 recipes.addShapeless(<refinedstorage:silicon>, [<galacticraftcore:basic_item:2>]);
 <refinedstorage:silicon>.addTooltip("Can be crafted into Galacticraft Silicon");
+
+//Mars Iridium Ore Recipes
+<ore:oreIridium>.add(<contenttweaker:iridium_mars>);
+furnace.addRecipe(<thermalfoundation:material:135>,<contenttweaker:iridium_mars>,1.2);

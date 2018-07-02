@@ -2,6 +2,8 @@ item.contenttweaker.plasticpurple.name=Purple Glazed Plastic
 item.contenttweaker.deathbook.name=Death Notebook
 item.contenttweaker.crystallattice.name=Crystalline Lattice
 
+tile.contenttweaker.iridium_mars.name=Martian Iridium Ore
+
 //These get ?9 to make them Blue like the Galacticraft Items.
 //Fancy must be preserved
 item.contenttweaker.gc_mixed_metal.name=Raw Heavy-Duty Composite
