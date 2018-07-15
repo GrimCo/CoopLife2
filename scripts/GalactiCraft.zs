@@ -101,3 +101,32 @@ recipes.addShapeless(<refinedstorage:silicon>, [<galacticraftcore:basic_item:2>]
 //Mars Iridium Ore Recipes
 <ore:oreIridium>.add(<contenttweaker:iridium_mars>);
 furnace.addRecipe(<thermalfoundation:material:135>,<contenttweaker:iridium_mars>,1.2);
+
+recipes.replaceAllOccurences(<ore:compressedCOpper>,<ore:plateCopper>);
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:6>,<ore:plateCopper>);
+
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:7>, <ore:plateTin>);
+recipes.replaceAllOccurences(<ore:compressedTin>,<ore:plateTin>);
+
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:8>, <ore:plateAluminum>);
+recipes.replaceAllOccurences(<ore:compressedAluminum>,<ore:plateAluminum>);
+
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:9>, <ore:plateSteel>);
+recipes.replaceAllOccurences(<ore:compressedSteel>,<ore:plateSteel>);
+
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:10>, <ore:plateBronze>);
+recipes.replaceAllOccurences(<ore:compressedBronze>,<ore:plateBronze>);
+
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:11>, <ore:plateIron>);
+recipes.replaceAllOccurences(<ore:compressedIron>,<ore:plateIron>);
+
+recipes.replaceAllOccurences(<galacticraftplanets:item_basic_asteroids:6>, <ore:plateTitanium>);
+recipes.replaceAllOccurences(<ore:compressedTitanium>,<ore:plateTitanium>);
+
+recipes.replaceAllOccurences(<galacticraftplanets:basic_item_venus:1>, <ore:ingotLead>);
+
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:14>, <ore:circuitAdvanced>);
+recipes.replaceAllOccurences(<ore:waferAdvanced>, <ore:circuitAdvanced>);
+
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:13>, <ore:circuitBasic>);
+recipes.replaceAllOccurences(<ore:waferBasic>, <ore:circuitBasic>);
