@@ -25,7 +25,6 @@ rawPork.add(<minecraft:porkchop>);
 
 var rawBeef = <ore:rawBeef>;
 rawBeef.add(<minecraft:beef>);
-rawBeef.add(<galacticraftcore:food:6>);
 
 var rawChicken = <ore:rawChicken>;
 rawChicken.add(<minecraft:chicken>);
